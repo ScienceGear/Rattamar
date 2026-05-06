@@ -5,18 +5,7 @@ import { SUBJECT_LIST, SUBJECTS, type Subject } from "@/lib/quizData";
 import { loadProgress, loadLast, saveLast, getBadge } from "@/lib/progress";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Rattamar — Choose Your Subject" },
-      {
-        name: "description",
-        content:
-          "Pick a subject and start mastering MCQs with shuffled options, mastery tracking and gamified XP.",
-      },
-    ],
-  }),
   component: HomePage,
-  ssr: false,
 });
 
 function HomePage() {

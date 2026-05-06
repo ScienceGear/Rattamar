@@ -30,18 +30,7 @@ export const Route = createFileRoute("/quiz/$subject")({
   validateSearch: (s: Record<string, unknown>): QuizSearch => ({
     resume: s.resume === 1 || s.resume === "1" ? 1 : undefined,
   }),
-  head: ({ params }) => {
-    const subj = SUBJECTS[params.subject as SubjectKey];
-    const name = subj?.name ?? "Quiz";
-    return {
-      meta: [
-        { title: `${name} — Rattamar` },
-        { name: "description", content: `Practice ${name} MCQs with mastery tracking and XP.` },
-      ],
-    };
-  },
   component: QuizPage,
-  ssr: false,
 });
 
 function QuizPage() {
