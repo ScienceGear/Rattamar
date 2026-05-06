@@ -1,4 +1,5 @@
 import { Outlet, Link, createRootRoute } from "@tanstack/react-router";
+import { Analytics } from "@vercel/analytics/react";
 
 function NotFoundComponent() {
   return (
@@ -36,6 +37,7 @@ function RootComponent() {
       <footer className="fixed bottom-0 left-0 right-0 z-50 border-t border-border bg-background/80 py-2.5 text-center text-xs text-muted-foreground backdrop-blur">
         Made by <a href="https://sciencegear.tech" target="_blank" rel="noopener noreferrer" className="font-semibold text-foreground hover:underline">ScienceGear 2026</a>
       </footer>
+      <Analytics />
     </div>
   );
 }
