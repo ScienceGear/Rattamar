@@ -1,6 +1,7 @@
 import arthaNita from "@/data/arthaNita.json";
 import arthaNitiQuiz from "@/data/arthaNitiQuiz.json";
 import kutayala from "@/data/kutayala.json";
+import kutayalaQuiz from "@/data/kutayalaQuiz.json";
 
 export interface Question {
   id: number;
@@ -10,7 +11,7 @@ export interface Question {
   explanation: string;
 }
 
-export type SubjectKey = "arthaNita" | "artha-niti-quiz" | "kutayala";
+export type SubjectKey = "arthaNita" | "artha-niti-quiz" | "kutayala" | "kutayala-quiz";
 
 export interface Subject {
   key: SubjectKey;
@@ -59,6 +60,19 @@ export const SUBJECTS: Record<SubjectKey, Subject> = {
     name: "Kutayala",
     tagline: "Kautilya's Arthashastra",
     questions: kutayala as Question[],
+    themeBg: "bg-gradient-kuta",
+    themeBadge: "bg-kuta text-kuta-foreground",
+    themeRing: "focus-visible:ring-kuta",
+    themeBtn: "bg-kuta text-kuta-foreground hover:opacity-90",
+    themeText: "text-kuta",
+    themeBorder: "border-kuta/30",
+    themeSoft: "bg-kuta/10",
+  },
+  "kutayala-quiz": {
+    key: "kutayala-quiz",
+    name: "Kutayala Quiz",
+    tagline: "Kutayala question bank (89 questions)",
+    questions: kutayalaQuiz as Question[],
     themeBg: "bg-gradient-kuta",
     themeBadge: "bg-kuta text-kuta-foreground",
     themeRing: "focus-visible:ring-kuta",

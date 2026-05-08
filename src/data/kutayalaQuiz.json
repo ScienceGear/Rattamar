@@ -1,0 +1,1070 @@
+[
+  {
+    "id": 1,
+    "question": "What is the primary responsibility of the समाहर्तृ Samahartru (Administrator) according to Arthashastra?",
+    "options": [
+      "Organizing sacrificial rites",
+      "Constructing fortifications",
+      "Managing revenue sources and expenditures",
+      "Leading the army in battle"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 2,
+    "question": "According to Kautilya, what is the function of the Arthashastra?",
+    "options": [
+      "Education of children",
+      "Compilation of medicinal knowledge",
+      "Acquisition and protection of the earth",
+      "Spiritual liberation of the soul"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 3,
+    "question": "In the comparison of property violation vs. physical injury, what is Kautilya's view?",
+    "options": [
+      "Property loss causes social humiliation",
+      "Physical injury is more severe due to loss of life or limb",
+      "Both are equally damaging",
+      "Property violation is more severe as it affects the treasury"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 4,
+    "question": "According to Kautilya, what makes internal strife in the royal family particularly dangerous?",
+    "options": [
+      "It weakens taxation",
+      "It can be easily publicized",
+      "It decreases the population",
+      "It leads to exploitation of the people and instability"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 5,
+    "question": "What is meant by 'dual policy' (द्वैधिभावः | dvaidhibhavah) in Kautilya's framework?",
+    "options": [
+      "Retreating and regrouping",
+      "Entering peace with one and war with another",
+      "Simultaneously attacking two enemies",
+      "Dividing the army into two divisions"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 6,
+    "question": "According to Kautilya, what is the best time for a king to attack an enemy?",
+    "options": [
+      "During a festival",
+      "When the enemy is in trouble or facing internal calamities",
+      "When the moon is full",
+      "When the king's treasury is empty"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 7,
+    "question": "What should a king do if he is weaker than his neighbor?",
+    "options": [
+      "Declare war immediately",
+      "Seek peace or a treaty (Sandhi)",
+      "Ignore the neighbor",
+      "Surrender the entire kingdom"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 8,
+    "question": "What is the role of the 'Sannidhatru' (Treasurer)?",
+    "options": [
+      "In charge of military training",
+      "Custody of the treasury and the state stores",
+      "Managing diplomatic relations",
+      "Supervising the secret police"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 9,
+    "question": "Which of the following is considered a 'calamity' (vyasana) for a state?",
+    "options": [
+      "A king addicted to vices",
+      "Abundance of rainfall",
+      "A large and loyal population",
+      "A full treasury"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 10,
+    "question": "How does Kautilya classify 'spies' (Gudha-purushah)?",
+    "options": [
+      "By their height and weight",
+      "By their caste",
+      "Fixed (sthasthavara) and wandering (bhramara)",
+      "Temporary and Permanent"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 11,
+    "question": "What is the primary goal of the 'Circle of States' (Rajamandala) theory?",
+    "options": [
+      "Promoting global trade",
+      "Expansion and maintaining the balance of power",
+      "Establishing a single world religion",
+      "Mapping geographical boundaries"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "question": "In Kautilya’s view, who is the immediate enemy of the king?",
+    "options": [
+      "The king's own son",
+      "A king from a distant continent",
+      "The king whose territory borders his own",
+      "A king who has no army"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 13,
+    "question": "In the order of sciences (vinaya), which is the correct hierarchy for a king's training?",
+    "options": [
+      "Varta, Trayi, Dandaniti, Anvikshiki",
+      "Trayi, Varta, Anvikshiki, Dandaniti",
+      "Dandaniti, Varta, Trayi, Anvikshiki",
+      "Anvikshiki, Trayi, Varta, Dandaniti"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 14,
+    "question": "How should a king treat a conquered territory?",
+    "options": [
+      "Enslave the entire population",
+      "Impose his own culture by force",
+      "Adopt the manners, dress, and language of the people to gain their loyalty",
+      "Destroy all existing infrastructure"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 15,
+    "question": "What is the 'Dandaniti'?",
+    "options": [
+      "The science of agriculture",
+      "The science of government and law enforcement",
+      "The science of medicine",
+      "The science of religious rituals"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 16,
+    "question": "What is the significance of the 'Anvikshiki' science?",
+    "options": [
+      "It provides the foundation for logical reasoning and critical thinking",
+      "It teaches the art of archery",
+      "It deals with animal husbandry",
+      "It focuses on architectural design"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 17,
+    "question": "What is 'Varta' in Kautilya's classification of knowledge?",
+    "options": [
+      "Philosophy and logic",
+      "The three Vedas",
+      "Agriculture, cattle-breeding, and trade",
+      "The art of warfare"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 18,
+    "question": "According to Kautilya, what is the 'root' of the state (Rajyamula)?",
+    "options": [
+      "The Treasury (Kosha)",
+      "The King (Swami)",
+      "The Army (Danda)",
+      "The People (Janapada)"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 19,
+    "question": "What is the 'Amatya' in the Saptanga theory?",
+    "options": [
+      "The palace cook",
+      "The ministers or high-ranking officials",
+      "The enemy king",
+      "The border guards"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 20,
+    "question": "What does 'Janapada' represent in the state's elements?",
+    "options": [
+      "The king's personal garden",
+      "The territory and the population",
+      "The royal treasury",
+      "The fortified walls"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 21,
+    "question": "Which type of treaty involves surrendering land that is of no strategic value or is a source of trouble?",
+    "options": [
+      "Parikraya Treaty",
+      "Exterminated Treaty (Uchchinna-sandhi)",
+      "Abhityaga Treaty",
+      "Adishta Treaty"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 22,
+    "question": "Which of the following is NOT listed as a requisite for an 'Amatya' (Minister)?",
+    "options": [
+      "Native lineage (Janapada)",
+      "Of high family (Abhijata)",
+      "Wealthy (Sura)",
+      "Trained in arts (Shilpavan)"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 23,
+    "question": "What is 'Danda' (the army) used for according to the text?",
+    "options": [
+      "Only for ceremonial parades",
+      "Protection against external enemies and internal disorder",
+      "Conducting trade with neighbors",
+      "Supervising agricultural labor"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 24,
+    "question": "Who is a 'Mitra' in the Saptanga theory?",
+    "options": [
+      "A merchant from another land",
+      "The ally or the friendly neighboring state",
+      "The eldest son of the king",
+      "The chief of the village"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 25,
+    "question": "How should a king choose his ministers?",
+    "options": [
+      "By drawing lots",
+      "Based on their integrity, wisdom, and loyalty tested through 'Upadhas'",
+      "By choosing the tallest candidates",
+      "By appointing only his childhood friends"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 26,
+    "question": "What is the 'Asana' policy?",
+    "options": [
+      "Entering a combat position",
+      "Staying quiet or neutral (waiting for the right opportunity)",
+      "Retreating to a forest",
+      "Changing the capital city"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 27,
+    "question": "What is 'Yana' in foreign policy?",
+    "options": [
+      "Preparing for a march or an expedition",
+      "Building a new temple",
+      "Signing a trade agreement",
+      "Recruiting new spies"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 28,
+    "question": "What is 'Samshraya'?",
+    "options": [
+      "Seeking protection from a more powerful king",
+      "Challenging a stronger king to a duel",
+      "Declaring independence from an empire",
+      "Forging a secret alliance with rebels"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 29,
+    "question": "How does Kautilya define 'Dharma'?",
+    "options": [
+      "Personal whims of the king",
+      "Law based on social order and the duties of individuals",
+      "Strict adherence to nomadic traditions",
+      "Absolute freedom from all rules"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 30,
+    "question": "What is the punishment for a false witness?",
+    "options": [
+      "No punishment is necessary",
+      "A verbal warning",
+      "Fine or corporal punishment depending on the severity",
+      "Exile to a desert island"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 31,
+    "question": "What is the duty of the 'Pauravyavaharika'?",
+    "options": [
+      "City magistrate or judge",
+      "Market superintendent",
+      "Gatekeeper of the palace",
+      "Keeper of the royal stables"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 32,
+    "question": "What is the role of 'Antarvamshika'?",
+    "options": [
+      "Chief of the palace guards",
+      "Tax collector",
+      "Diplomatic envoy",
+      "Elephant trainer"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 33,
+    "question": "How are 'secret agents' (Gudhapurushas) recruited?",
+    "options": [
+      "Only from the priestly class",
+      "Through a public recruitment drive",
+      "From various classes, including students, recluses, and merchants",
+      "By force from enemy territories"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 34,
+    "question": "What is the 'Madhyama' king?",
+    "options": [
+      "A king who has just been crowned",
+      "The middle king capable of helping or resisting both the conqueror and the enemy",
+      "A king with an average-sized army",
+      "The weakest king in the circle of states"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 35,
+    "question": "What is the 'Udasina' king?",
+    "options": [
+      "The most aggressive king in the region",
+      "A king who is always in mourning",
+      "The neutral or indifferent king outside the immediate conflict zone",
+      "The king who acts as the supreme judge"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 36,
+    "question": "How should a king manage his daily routine?",
+    "options": [
+      "Do whatever he feels like at the moment",
+      "Sleep all day and work all night",
+      "Divided into eight parts (nadikas) for administration, rest, and personal duties",
+      "Spend all time on hunting and leisure"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 37,
+    "question": "What is the role of the 'Purohita'?",
+    "options": [
+      "The royal chaplain or advisor on religious and moral matters",
+      "The chief treasurer",
+      "The commander of the navy",
+      "The master of the royal kitchen"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 38,
+    "question": "How does Kautilya view taxation?",
+    "options": [
+      "The king should take everything the people own",
+      "Taxes should be collected like a bee collecting nectar, without hurting the source",
+      "Taxes should be abolished entirely",
+      "Only the poor should pay taxes"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 39,
+    "question": "What is the 'Bali' tax?",
+    "options": [
+      "A tax on exports",
+      "A religious or customary tribute",
+      "A tax on salt",
+      "A tax for road maintenance"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 40,
+    "question": "What is the duty of the 'Sitadhyaksha'?",
+    "options": [
+      "Superintendent of agriculture",
+      "Superintendent of mines",
+      "Superintendent of weaving",
+      "Superintendent of weights"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 41,
+    "question": "What is the role of the 'Panyadhyaksha'?",
+    "options": [
+      "Superintendent of commerce",
+      "Superintendent of the treasury",
+      "Superintendent of the royal forest",
+      "Superintendent of the armory"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 42,
+    "question": "What is 'Kantakashodhana'?",
+    "options": [
+      "The art of planting gardens",
+      "Removal of 'thorns' or anti-social elements from society",
+      "A method for purifying gold",
+      "A technique for cleaning weapons"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 43,
+    "question": "What constitutes 'theft' (Steya) according to the text?",
+    "options": [
+      "Finding an item in the street",
+      "Taking property that belongs to others without consent",
+      "Borrowing an item with a promise to return",
+      "Trading goods at a high price"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 44,
+    "question": "What is 'Sahasa'?",
+    "options": [
+      "Crimes of violence or robbery with force",
+      "Minor civil disputes",
+      "The practice of meditation",
+      "Scientific research"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 45,
+    "question": "How are disputes over boundaries (Simavivada) settled?",
+    "options": [
+      "By conducting a war",
+      "By moving the capital",
+      "By the elders of the village or neighboring witnesses",
+      "By flip of a coin"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 46,
+    "question": "What does Kautilya say about artisans in the context of trust (3.12)?",
+    "options": [
+      "Constructing catapults",
+      "Employing spies and assassins",
+      "Setting fire to one's own camp",
+      "Adopting strict quality controls"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 47,
+    "question": "In 4.7 (Inquest on Sudden Deaths), if a body shows signs of poisoning, what is the course of action?",
+    "options": [
+      "Banishment of the suspect",
+      "Immediate execution of the suspected poisoner",
+      "Investigation of prior conflict and motive",
+      "Consulting the royal chaplain"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 48,
+    "question": "What is the primary purpose of appointing a king's son (or a pretender) within an oligarchy?",
+    "options": [
+      "To promote religious reforms",
+      "To create an internal power struggle",
+      "To ensure tax collection from the oligarchy",
+      "To improve relations with neighboring states"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 49,
+    "question": "Who is the 'Hastyadhyaksha'?",
+    "options": [
+      "Superintendent of the Treasury",
+      "Superintendent of the Elephant-Forest",
+      "Superintendent of Chariots",
+      "Superintendent of Horses"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 50,
+    "question": "What is the punishment for giving false evidence (Sakshyam)?",
+    "options": [
+      "Verbal reprimand",
+      "Double the standard penalty",
+      "A small fine",
+      "Life imprisonment"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 51,
+    "question": "What policy involves supporting the weaker friction with resources?",
+    "options": [
+      "Yana",
+      "Asana",
+      "Dvaidhibhava",
+      "Samshraya"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 52,
+    "question": "What is the punishment for theft of small items?",
+    "options": [
+      "Fines proportional to the value",
+      "Death penalty",
+      "Mutilation of hands",
+      "Exile"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 53,
+    "question": "What is the significance of 'Mantra-shakti'?",
+    "options": [
+      "Physical strength of the king",
+      "Power of counsel and intellectual strategy",
+      "Power of the army",
+      "Power of the treasury"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 54,
+    "question": "What is 'Prabhu-shakti'?",
+    "options": [
+      "The power of energy",
+      "The power of the treasury and the army",
+      "The power of religious rituals",
+      "The power of diplomacy"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 55,
+    "question": "What is 'Utsaha-shakti'?",
+    "options": [
+      "Power of financial resources",
+      "Power of personal energy and bravery",
+      "Power of alliances",
+      "Power of administrative records"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 56,
+    "question": "How does Kautilya define a 'Just King'?",
+    "options": [
+      "One who conquers the most land",
+      "One who protects the subjects and maintains the law",
+      "One who has the most gold",
+      "One who is a great poet"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 57,
+    "question": "What is the punishment for officials misappropriating funds?",
+    "options": [
+      "Meditation",
+      "Recovery of funds and heavy fines",
+      "A celebratory dinner",
+      "A change of job title"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 58,
+    "question": "What is the role of 'Ganikas' (courtesans) in state intelligence?",
+    "options": [
+      "Serving food at parties",
+      "Providing information on foreigners and high officials",
+      "Training the royal children",
+      "Acting in theatrical plays"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 59,
+    "question": "What is the duty of the 'Akshapataladhyaksha'?",
+    "options": [
+      "Superintendent of records and accounts",
+      "Superintendent of gambling",
+      "Superintendent of the arsenal",
+      "Superintendent of the city guards"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 60,
+    "question": "How are 'forest tribes' (Atavikas) viewed?",
+    "options": [
+      "As citizens with full voting rights",
+      "Both as a threat and a potential source of troops",
+      "As purely mythical beings",
+      "As the primary source of state revenue"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 61,
+    "question": "What is 'Yuktika'?",
+    "options": [
+      "A subordinate officer or clerk",
+      "A high priest",
+      "A secret code",
+      "A type of siege engine"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 62,
+    "question": "What is the penalty for adultery?",
+    "options": [
+      "A simple apology",
+      "Varied based on caste and severity",
+      "Mandatory marriage",
+      "Confiscation of all books"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 63,
+    "question": "What is 'Dharmasthiya' court?",
+    "options": [
+      "Courts dealing with criminal violence",
+      "Courts dealing with civil law and family disputes",
+      "Military tribunals",
+      "Economic advisory boards"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 64,
+    "question": "What is the importance of 'mining' according to Kautilya?",
+    "options": [
+      "It is a hobby for the king",
+      "Mines are the source of the treasury",
+      "It is only for building decorative fountains",
+      "It provides employment for philosophers"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 65,
+    "question": "What is the 'Lohadhyaksha'?",
+    "options": [
+      "Superintendent of textiles",
+      "Superintendent of metals",
+      "Superintendent of ivory",
+      "Superintendent of spices"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 66,
+    "question": "What is 'Rupadarshaka'?",
+    "options": [
+      "A fashion designer",
+      "Inspector of coins or currency",
+      "Superintendent of beauty pageants",
+      "Architect of the palace"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 67,
+    "question": "How should a king deal with a famine?",
+    "options": [
+      "Increase taxes to save the state",
+      "Distribute seeds/food and employ people in public works",
+      "Declare war on a neighbor",
+      "Move the kingdom to a new location"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 68,
+    "question": "What is the 'Navadhyaksha'?",
+    "options": [
+      "Superintendent of navigation",
+      "Superintendent of astronomical charts",
+      "Superintendent of news",
+      "Superintendent of music"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 69,
+    "question": "What is the role of 'Vivithadhyaksha'?",
+    "options": [
+      "Superintendent of weddings",
+      "Superintendent of pastures",
+      "Superintendent of variations",
+      "Superintendent of libraries"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 70,
+    "question": "How does Kautilya view the 'Four Sciences'?",
+    "options": [
+      "They are optional for the king",
+      "They are essential for a king's governance",
+      "They are meant only for the common people",
+      "They are outdated and should be replaced"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 71,
+    "question": "What is the duty of the 'Mudradhyaksha'?",
+    "options": [
+      "Superintendent of seals and passports",
+      "Superintendent of mud and clay",
+      "Superintendent of traditional dances",
+      "Superintendent of financial loans"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 72,
+    "question": "What is 'Shulka'?",
+    "options": [
+      "A type of traditional dress",
+      "Customs duty or tolls on trade goods",
+      "The name of a famous general",
+      "A martial arts technique"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 73,
+    "question": "What is 'Koshapravartana'?",
+    "options": [
+      "Replenishment of the treasury during emergencies",
+      "The science of making coins",
+      "Building a new treasury building",
+      "Auditing the treasury every year"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 74,
+    "question": "What is the punishment for 'Defamation' (Vakparushya)?",
+    "options": [
+      "Public execution",
+      "Fines depending on status",
+      "Imprisonment for 10 years",
+      "A written apology"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 75,
+    "question": "What is 'Danda-parushya'?",
+    "options": [
+      "Verbal abuse",
+      "Physical injury or assault",
+      "Theft of an army horse",
+      "Desertion from the battlefield"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 76,
+    "question": "How are 'Weights and Measures' regulated?",
+    "options": [
+      "By individual merchants",
+      "By the Poutavadhyaksha",
+      "By the local village priest",
+      "By the international trade guild"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 77,
+    "question": "What is the role of 'Gopa' in village administration?",
+    "options": [
+      "Chief of the village defense",
+      "In charge of households, maintenance of census and records",
+      "The village blacksmith",
+      "Supervising village entertainment"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 78,
+    "question": "What is the 'Sthanika's' duty?",
+    "options": [
+      "Maintaining the royal stables",
+      "Administrator of a quarter of the kingdom or city",
+      "Leading the infantry",
+      "Judging the quality of wine"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 79,
+    "question": "How does Kautilya define 'Self-control' for a king?",
+    "options": [
+      "Not eating after sunset",
+      "Conquest of the six internal enemies (Lust, Anger, etc.)",
+      "Only speaking when necessary",
+      "Controlling the movements of the army"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 80,
+    "question": "What is the significance of the 'Lion’s Look' (Simhavalokana)?",
+    "options": [
+      "A specific fighting stance",
+      "Reviewing previous actions to plan for the future",
+      "Wearing a lion's skin",
+      "Staring down an opponent"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 81,
+    "question": "What is the 'Aparajita' fortress?",
+    "options": [
+      "A fortress that is currently under construction",
+      "An invincible or unconquerable fort",
+      "A fort located in the desert",
+      "The largest fort in the kingdom"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 82,
+    "question": "What is the duty of 'Suradhyaksha'?",
+    "options": [
+      "Superintendent of music",
+      "Superintendent of liquor",
+      "Superintendent of the sun temple",
+      "Superintendent of architecture"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 83,
+    "question": "How should a king handle 'Enemies of the State' (Desha-shatru)?",
+    "options": [
+      "Invite them for a friendly talk",
+      "Through assassination, poisoning, or instigating strife",
+      "Give them a portion of the kingdom",
+      "Ask them to move to another land"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 84,
+    "question": "What is 'Upanidhi'?",
+    "options": [
+      "A small gift for the king",
+      "Open or sealed deposits (entrustment of property)",
+      "A type of military formation",
+      "A traditional folk song"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 85,
+    "question": "What is the rule regarding 'Treasure Trove'?",
+    "options": [
+      "The finder keeps everything",
+      "Majority belongs to the state, with a small portion for the finder",
+      "It must be buried again immediately",
+      "It is distributed equally among all citizens"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 86,
+    "question": "What is 'Sati' in the context of the text?",
+    "options": [
+      "A mandatory ritual for widows",
+      "Not a major focus, but female duties and property rights are detailed",
+      "A tax on households",
+      "The name of the queen"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 87,
+    "question": "What is the 'Rathadhyaksha'?",
+    "options": [
+      "Superintendent of ships",
+      "Superintendent of chariots",
+      "Superintendent of pathways",
+      "Superintendent of flags"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 88,
+    "question": "How does a king maintain 'Public Health'?",
+    "options": [
+      "By conducting city-wide meditations",
+      "By regulating physicians and punishing negligence",
+      "By prohibiting all travel",
+      "By providing free gym access"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 89,
+    "question": "What is Kautilya's final advice to a conqueror (Vijigishu)?",
+    "options": [
+      "Always seek more gold",
+      "Retire as soon as possible",
+      "Be vigilant and prioritize the welfare of the subjects",
+      "Trust everyone in the court"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  }
+]
