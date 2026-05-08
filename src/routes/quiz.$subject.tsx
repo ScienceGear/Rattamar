@@ -227,6 +227,10 @@ function QuizPage() {
       : reordered;
     setShuffleQuestions(newVal);
     setOrderedQuestions(reordered);
+    if (newVal) {
+      setCurrentIdx(0);
+      return;
+    }
     const newIdx = filtered.findIndex((qq) => qq.id === q.id);
     setCurrentIdx(newIdx >= 0 ? newIdx : 0);
   };
