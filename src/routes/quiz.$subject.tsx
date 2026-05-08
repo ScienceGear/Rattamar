@@ -88,15 +88,15 @@ function QuizPage() {
   const [selectedIdx, setSelectedIdx] = useState<number | null>(null);
   const answered = selectedIdx !== null;
 
-  const prepareQuestion = useCallback((qq: Question) => {
+  const prepareQuestion = useCallback((qq: Question, shouldShuffleOptions: boolean) => {
     setCorrectText(qq.options[qq.correctAnswer]);
-    setShuffledOptions(shuffleArr(qq.options));
+    setShuffledOptions(shouldShuffleOptions ? shuffleArr(qq.options) : qq.options.slice());
     setSelectedIdx(null);
   }, []);
 
   useEffect(() => {
-    if (q) prepareQuestion(q);
-  }, [q, prepareQuestion]);
+    if (q) prepareQuestion(q, shuffleQuestions);
+  }, [q, shuffleQuestions, prepareQuestion]);
 
   // Persist last session whenever index changes
   useEffect(() => {
@@ -195,12 +195,12 @@ function QuizPage() {
   };
 
   const toggleShuffle = () => {
+    if (!q) return;
     const newVal = !shuffleQuestions;
     setShuffleQuestions(newVal);
-    const cur = q;
     const reordered = newVal ? shuffleArr(subject.questions) : subject.questions.slice();
     setSessionQuestions(reordered);
-    const newIdx = reordered.findIndex((x) => x.id === cur.id);
+    const newIdx = reordered.findIndex((x) => x.id === q.id);
     setCurrentIdx(newIdx >= 0 ? newIdx : 0);
   };
 
