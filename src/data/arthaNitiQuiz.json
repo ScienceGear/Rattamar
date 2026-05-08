@@ -1,0 +1,598 @@
+[
+  {
+    "id": 1,
+    "question": "In the Utathya Gita (Shanti Parva, Mahabharata), what teaching does Utathya give to Mandhata about the king's relationship with the weak?",
+    "options": [
+      "The weak should be ignored",
+      "The king must first share with and support the weak (durbala); a king who ensures the needy are provided for before enjoying artha himself becomes truly powerful (bali)",
+      "The weak should serve the strong",
+      "The weak should pay higher taxes"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 2,
+    "question": "In the Utathya Gita, what metaphor is used to describe how a king should collect taxes from the subjects?",
+    "options": [
+      "Like a lion hunting prey",
+      "Like a leech drawing blood subtly, and like a tigress carrying cubs in her jaws without harming them",
+      "Like a farmer harvesting crops",
+      "Like collecting tributaries"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 3,
+    "question": "In the Cakkavatti Sihanada Sutta, what is identified as the singular origin of societal collapse?",
+    "options": [
+      "Warring kingdoms",
+      "The king's neglect of giving property to the needy, causing poverty",
+      "Natural disaster",
+      "Religious conflict"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 4,
+    "question": "According to Baudhayana Dharmasutra (BDS 1.10.1), what is the duty of a king who raises taxes?",
+    "options": [
+      "A king may raise any amount of taxes without obligation",
+      "A king should not raise taxes at all",
+      "Shadbhagabhridraja rakshatrajah: A king who raises 1/6th as taxes shall protect the people in return",
+      "A king should give all taxes to the Brahmanas"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 5,
+    "question": "What are the fourteen jewels (ratna) of a Cakravartin according to tradition?",
+    "options": [
+      "Fourteen precious gems including diamond, ruby, and emerald",
+      "Cakra, chatra, carmani, danda, asi, mani, kakini, ganapati, grhapati, varadhaki, purohita, etc.",
+      "Fourteen types of weapons and armor",
+      "Fourteen spiritual qualities of enlightenment"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 6,
+    "question": "What is the name of the future Buddha prophesied to appear when human lifespan reaches 80,000 years again according to the Cakkavatti-Sihanada Sutta?",
+    "options": [
+      "Dipankara",
+      "Kassapa",
+      "Metteyya (Maitreya)",
+      "Amitabha"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 7,
+    "question": "According to the Bhagavata Purana (11th Skandha), how many anarthas (misfortunes) are identified as rooted in artha (wealth)?",
+    "options": [
+      "Ten anarthas",
+      "Fifteen anarthas",
+      "Twelve anarthas",
+      "Twenty anarthas"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 8,
+    "question": "According to Kautilya's Arthashastra (1.7.6-7), what is the relationship between artha, dharma, and kama?",
+    "options": [
+      "Dharma is supreme; artha and kama follow",
+      "Kama is the foundation of both dharma and artha",
+      "Artha eva pradhana: artha is primary; dharma and kama have their root in artha",
+      "All three are equal and independent"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 9,
+    "question": "According to the Garuda Purana verse apadarthe dhanam rakshet, what is the order of priority for protection?",
+    "options": [
+      "First wealth, then wife, then self",
+      "First self, then wife, then wealth",
+      "First wife then wealth, then self",
+      "In times of crisis preserve wealth; protect wife even at cost of wealth; protect self even at cost of wife and wealth"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 10,
+    "question": "What are the three characteristics or marks of existence (ti-lakkhana) identified in Buddhist teaching?",
+    "options": [
+      "Birth, life, and death",
+      "Greed, hatred, and delusion",
+      "dukkha (suffering), anatta (no-self), and anicca (impermanence)",
+      "Past, present, and future"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 11,
+    "question": "What is the Jaina conception of freedom primarily characterized by?",
+    "options": [
+      "Political independence and sovereignty",
+      "Autonomy of the spiritual will characterized by selflessness, tranquility, steadfastness, and energy",
+      "Economic self-sufficiency",
+      "Freedom from social obligations"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "question": "According to the Mahavastu, what is the genealogical lineage connecting the Buddha to Mahasammata?",
+    "options": [
+      "Mahasammata to Isvaku to Suddhodana to Sakyamuni",
+      "Mahasammata to Bharata to Rama to Suddhodana to Sakyamuni",
+      "Mahasammata to Kalyana to Rava to Uposadha to Mandhatar... and further to Samhahanu to Suddhodana to Sakyamuni",
+      "Mahasammata to Manu to Prajapati to Suddhodana to Sakyamuni"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 13,
+    "question": "What is the definition of artha given by Kautilya in his Arthashastra?",
+    "options": [
+      "Artha is the accumulation of gold and silver",
+      "Artha is the pursuit of pleasures and desire",
+      "Manushyanam vrittharthah: for human beings, livelihood (vritti) is artha",
+      "Artha is the performance of religious rituals"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 14,
+    "question": "According to the Srimad Bhagavata Purana, what are the four types of vartta (livelihood) mentioned by Sri Krishna?",
+    "options": [
+      "Adhyapana, Yajana, Pratigraha and Dana",
+      "Shila, Uncha, Bhiksha and Seva",
+      "Krishi (agriculture), Vanijya (trade), Goraksha (cattle rearing), and Kusida (moneylending)",
+      "Vidya, Shilpa, Karma, and Yoga"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 15,
+    "question": "According to Jaina tradition, what were the six types of livelihood (work) instituted by Rishabha?",
+    "options": [
+      "Farming, herding, trading, crafting, teaching, and healing",
+      "Brahmana, Kshatriya, Vaishya, Shudra, agriculture and commerce",
+      "Asi (defense), masi (writing/administration), krishi (cultivation), vidya (learning), vanijya (trade), and shilpa (crafts)",
+      "Mining, fishing, hunting, farming, trading, and weaving"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 16,
+    "question": "According to the Jaina Puranic tradition, who was the first king and Tirthankara who initiated the conditions of Karma-bhumi (land of action)?",
+    "options": [
+      "Mahavira",
+      "Bharata",
+      "Rishabha (Adinatha)",
+      "Nabhi"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 17,
+    "question": "According to the Jaina Puranic tradition, what are the three kinds of Parishad-samitti (councils) mentioned in the Thananga (3.1.431)?",
+    "options": [
+      "Brahmana council, Kshatriya council, and Vaishya council",
+      "Spiritual council, Political council, and Economic council"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 18,
+    "question": "According to the Suvarnaprabhasa Sutta (Golden Light Sutra), what happens when a king fails to perform the function for which kingship was bestowed?",
+    "options": [
+      "Born in a lower realm",
+      "He demolishes his own realm like an elephant destroys a lotus pond",
+      "The gods withdraw their blessings immediately",
+      "He loses the great treasure"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 19,
+    "question": "In the Kalakavrikshiya Gita from the Mahabharata, what is the sage Kalakavrikshiya's teaching about artha to prince Kshemadarshi?",
+    "options": [
+      "One should accumulate as much wealth as possible",
+      "Wealth should be distributed to everyone equally",
+      "One should not grieve over what has not been attained or what was lost; be content with what is presently available while continuing purposeful effort",
+      "Only inherited wealth is legitimate"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 20,
+    "question": "According to the Shadja Gita, what does the verse hittearthena varteta dharmakamartha mean?",
+    "options": [
+      "Dharma and Kama are superior to Artha",
+      "Artha is best intended for dharma and kama",
+      "Without artha, neither dharma nor kama can endure or be realized",
+      "Dharma and Kama lead to Artha"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 21,
+    "question": "What is the dvadasa-rajamandala (twelve-fold circle of kings) theory mentioned in the Agni Purana?",
+    "options": [
+      "The twelve months of royal duties",
+      "A theory of inter-relations including ari (enemy), mitra (friend), arimitra, mitramitra, parshnigraha, akranda, and their allies",
+      "A classification of twelve types of kings based on their merit",
+      "The twelve treasures of a king"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 22,
+    "question": "Which nidhi (treasure) is associated with the collection of gems and precious stones and remains in a lineage for seven generations?",
+    "options": [
+      "Padma-nidhi",
+      "Mahapadma-nidhi",
+      "Makara-nidhi",
+      "Nila-nidhi"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 23,
+    "question": "What does the word satthantarakappa (sword interval) in the Cakkavatti Sihanada Sutta refer to?",
+    "options": [
+      "A period of great warfare between kingdoms",
+      "A seven-day period of anarchic collapse where humans mistake each other for wild beasts and kill each other",
+      "A period of weapon manufacturing",
+      "A term for military conquest"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 24,
+    "question": "According to the Markandeya Purana, what are the eight types of nidhis (treasures)?",
+    "options": [
+      "Gold, Silver, Copper, Iron, Diamond, Ruby, Pearl, and Emerald",
+      "Dharma, Artha, Kama, Moksha, Vidya, Shakti, Bala, and Kirti",
+      "Padma, Mahapadma, Makara, Kacchapa, Mukunda, Nandika, Nila, and Shankha",
+      "Surya, Chandra, Agni, Vayu, Varuna, Kubera, Indra, and Yama"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 25,
+    "question": "What does viruddha-rajjatikkarma refer to in Jaina ethical teaching about Asteya (non-stealing)?",
+    "options": [
+      "Stealing from religious institutions",
+      "Acting against the authority of the state / transgression of the state",
+      "Crossing rivers without permission",
+      "Violating treaty agreements"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 26,
+    "question": "According to Vedic texts, what is the concept of svatva (ownership) and how can it be acquired according to GDS (10.39)?",
+    "options": [
+      "Only through royal grant",
+      "Through inheritance (riktha), purchase (kraya), partition (sambhaga), seizure (parigraha), and finding a treasure (adhigama)",
+      "Only through birthright",
+      "Through divine blessing only"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 27,
+    "question": "According to Jaina philosophy, what are the three foundational principles on which the Jaina philosophical framework rests?",
+    "options": [
+      "Atma-vada, Loka-vada, and Karma-vada",
+      "Samyak Darshana, Samyak Jnana, and Samyak Charitra",
+      "Ahimsa, Satya, and Asteya",
+      "Anekantavada, Syadvada, and Nayavada"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 28,
+    "question": "According to the Visuddhimagga by Buddhaghosa, what significant claim is made about the Buddha's prior incarnation?",
+    "options": [
+      "The Buddha was previously a Cakravartin king",
+      "The Buddha was previously Indra",
+      "The Buddha had been Mahasammata (the first king) in a previous incarnation",
+      "The Buddha was a tree-spirit in his previous life"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 29,
+    "question": "What were the first three forms of dandaniti (punishment) instituted during the time of the Kulakaras?",
+    "options": [
+      "Imprisonment, exile, and execution",
+      "Depreciation (hakara), admonition (makara), and condemnation (dhikkara)",
+      "Fines, flogging, and banishment",
+      "Warning, detention, and confiscation"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 30,
+    "question": "According to the Jaina canonical text Thananga (7.76), how many forms of dandaniti (punishment) are there?",
+    "options": [
+      "Four forms",
+      "Five forms",
+      "Seven forms",
+      "Ten forms"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 31,
+    "question": "What is the story of the cloud Kundadhara in Puranic tradition meant to illustrate?",
+    "options": [
+      "The power of rain for agriculture",
+      "The importance of weather prediction",
+      "That dharma is the true root of artha; acquisition of wealth is concealed within the practice of dharma",
+      "The worship of natural elements"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 32,
+    "question": "According to the Hamsagita in the Vishnudharmottara Purana, what are the ten sources of livelihood (dasha jivana hetavah)?",
+    "options": [
+      "Only the four types of vartta mentioned in Bhagavata",
+      "Only agriculture and trade",
+      "Vidya (knowledge), Shilpa (crafts), Bhriti (wages), Seva (service), Goraksha (cattle rearing), Vipani (trade), Krishi (agriculture), Dhriti (self-sustaining livelihood), Bhaikshya (alms), and Kusida (lending)",
+      "Twelve forms of taxation"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 33,
+    "question": "According to the Four Noble Truths in Buddhism, what is tanha (thirst) defined as?",
+    "options": [
+      "Physical hunger and desire for food",
+      "The desire for spiritual knowledge",
+      "Clinging to desired conditions and resisting contrary ones",
+      "Attachment to material possessions only"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 34,
+    "question": "What are the satta aparihariya dhamma (seven principles of welfare) that the Buddha taught to the Vajjians?",
+    "options": [
+      "Principles including holding regular assemblies, meeting in harmony, respecting ancient traditions, etc.",
+      "The eight stages of purification",
+      "Rules for economic prosperity"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 35,
+    "question": "In the Shadja Gita from the Shanti Parva of Mahabharata, who emphasizes the primacy of artha among the four purusharthas?",
+    "options": [
+      "Vidura",
+      "Bhima",
+      "Arjuna, Nakula, and Sahadeva",
+      "Yudhisthira"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 36,
+    "question": "According to Gautama Dharmasutra (GDS), what is the lawful rate of interest mentioned for lending money?",
+    "options": [
+      "10 mashas per month for every hundred",
+      "01 masha per week for ten",
+      "5 mashas a month for twenty; principal doubles if outstanding for more than a year",
+      "20 mashas per year for fifty"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 37,
+    "question": "What are the fourteen Kulakaras in Jaina cosmology known for?",
+    "options": [
+      "They were the first Tirthankars who achieved moksha",
+      "They were patriarchs who incrementally introduced skills necessary for survival and established rudimentary legal systems during the transition from Bhogabhumi",
+      "They were the fourteen jewels of a Cakravartin",
+      "They were the founders of the fourteen major Jaina sects"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 38,
+    "question": "According to the Shukla Yajurveda, which professions/occupations are mentioned as existing in Vedic society?",
+    "options": [
+      "Only priests and kings",
+      "Hiranyakara (goldsmith), Manikara, Vanshik (merchant), Kaulala (potter), Taksha (carpenter), Rathakara, Isukara, Dhanushkara, Bhishaka (physician), Gana, and many more",
+      "Only farmers and herders",
+      "Only traders and soldiers"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 39,
+    "question": "According to the Bhagavata Purana, what is the concept of yoga-kshema?",
+    "options": [
+      "Union with the divine through meditation",
+      "Physical exercises for health",
+      "Acquisition of what has not been attained (apraptasya praptih), safeguarding what has been attained (praptasya rakshanam), and proper investment leading to growth (rakshitasya patre nikshepah)",
+      "Renunciation of worldly possessions"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 40,
+    "question": "In the Kurma Purana, what are the four classes of householders based on their grain reserves?",
+    "options": [
+      "Dhanyaka, Annaka, Bhajaka, and Purnaka",
+      "Prathama, Dwitiya, Tritiya, and Chaturtha",
+      "Kushula-dhanyaka (3 years), Kumbhi-dhanyaka (1 year), Traihahika (3 days), and Ashvattanika (1 day)",
+      "Satvika, Rajasika, Tamasika, and Mahesa"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 41,
+    "question": "What progressive idea does Apastamba Dharmasutra (ApDS) recommend about property inheritance?",
+    "options": [
+      "Only sons can inherit property",
+      "If a man has no son, he may alternatively give property to his daughter; all sons living righteously are entitled to inherit",
+      "Property goes only to the eldest son",
+      "Property must be donated to the king"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 42,
+    "question": "According to the Garuda Purana verse madhukavad duhet sastram, how should a king collect taxes?",
+    "options": [
+      "By force and coercion",
+      "Just as a bee extracts nectar without harming the flower, the king should collect revenue without causing ruin to agriculture and cattle rearing",
+      "By taking everything at once",
+      "Only during times of war"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 43,
+    "question": "According to the Kurma Purana, what are the primary duties (vrittis) of a Brahmana householder?",
+    "options": [
+      "Krishi, Vanijya, and Goraksha",
+      "Warfare, administration, and trade",
+      "Adhyapana (teaching), Yajana (conducting sacrifices), and Pratigraha (acceptance of gifts)",
+      "Agriculture, crafts, and commerce"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 44,
+    "question": "According to the Nighantu, what does the term dravya (wealth) literally signify?",
+    "options": [
+      "That which is given in charity",
+      "Derived from the root dru (to run)—it is that towards which all run; it is also strength (bala)",
+      "That which brings fame",
+      "That which comes from the gods"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 45,
+    "question": "According to the Agganna Sutta, what was the title given to the first king elected by the people?",
+    "options": [
+      "Devaraja",
+      "Maha-Sammata (The Great Appointed / The People's Choice)",
+      "Dhammika Raja"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 46,
+    "question": "According to the Hamsagita in the Vishnudharmottara Purana, what are the seven legitimate (nyayya) means of acquiring wealth?",
+    "options": [
+      "Vanijya, Goraksha, Krishi, Seva, Shilpa, and Vidya",
+      "Dana, Bhoga, Raksha, Vardhana, Viniyoga, and Samgraha",
+      "Daya (inheritance), Labha (gifts), Kraya (purchase), Jaya (victory), Prayoga (lending), Karma-yoga (labor), and Sat-pratigraha (accepting gifts from virtuous)",
+      "Dharmika Artha, Kama, Moksha, Vidya, Bala, and Kirti"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 47,
+    "question": "According to the Thananga (5.192), what are the five supports for a person practicing the path of virtue?",
+    "options": [
+      "Wealth, knowledge, power, family, and friends",
+      "Food, water, shelter, clothing, and medicine",
+      "The six types of living bodies, the gana (sangha/republic), the king, the householder, and the physical body",
+      "Dharma, Artha, Kama, Moksha, and Satya"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 48,
+    "question": "What is the Kacchapa-nidhi (turtle treasure) characterized by according to Puranic texts?",
+    "options": [
+      "Generosity and charitable giving",
+      "Tamasika disposition, distrust, inconsistent assistance, avoidance of dharma (shanti), and miserliness",
+      "Sattva-guna and spiritual practice",
+      "Rajo-guna and patronage of performing arts"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 49,
+    "question": "According to the Markandeya Purana, what is the Padma-nidhi associated with?",
+    "options": [
+      "Rajo-guna and collection of weapons",
+      "Tamas-guna and hoarding of wealth",
+      "Sattva-guna, abundant stores of gold, silver, and copper, and performance of yajna-yaga",
+      "Collection of gems and precious stones"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 50,
+    "question": "According to Buddhist teaching, what are the three poisons (primary drivers) motivating human behavior?",
+    "options": [
+      "Pride, jealousy, and ignorance",
+      "Attachment, aversion, and fear",
+      "Greed, hatred, and delusion",
+      "Desire, anger, and sloth"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  }
+]

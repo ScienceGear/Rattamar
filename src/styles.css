@@ -38,6 +38,8 @@
   --color-warning-foreground: var(--warning-foreground);
   --color-artha: var(--artha);
   --color-artha-foreground: var(--artha-foreground);
+  --color-niti: var(--niti);
+  --color-niti-foreground: var(--niti-foreground);
   --color-kuta: var(--kuta);
   --color-kuta-foreground: var(--kuta-foreground);
   --color-sidebar: var(--sidebar);
@@ -51,6 +53,7 @@
 
   --gradient-app: linear-gradient(135deg, oklch(0.985 0.01 280) 0%, oklch(0.96 0.025 270) 100%);
   --gradient-artha: linear-gradient(135deg, oklch(0.62 0.19 255) 0%, oklch(0.5 0.22 280) 100%);
+  --gradient-niti: linear-gradient(135deg, oklch(0.68 0.17 160) 0%, oklch(0.56 0.2 175) 100%);
   --gradient-kuta: linear-gradient(135deg, oklch(0.7 0.19 50) 0%, oklch(0.58 0.22 25) 100%);
   --gradient-brand: linear-gradient(135deg, oklch(0.62 0.21 285) 0%, oklch(0.55 0.23 320) 100%);
 
@@ -82,6 +85,8 @@
   --warning-foreground: oklch(0.25 0.06 60);
   --artha: oklch(0.55 0.21 260);
   --artha-foreground: oklch(0.99 0 0);
+  --niti: oklch(0.6 0.18 165);
+  --niti-foreground: oklch(0.99 0 0);
   --kuta: oklch(0.62 0.21 35);
   --kuta-foreground: oklch(0.99 0 0);
   --border: oklch(0.92 0.012 280);
@@ -120,6 +125,8 @@
   --warning-foreground: oklch(0.16 0.03 275);
   --artha: oklch(0.65 0.2 260);
   --artha-foreground: oklch(0.99 0 0);
+  --niti: oklch(0.72 0.16 165);
+  --niti-foreground: oklch(0.16 0.03 275);
   --kuta: oklch(0.7 0.2 35);
   --kuta-foreground: oklch(0.16 0.03 275);
   --border: oklch(1 0 0 / 12%);
@@ -148,6 +155,7 @@
 
 @layer utilities {
   .bg-gradient-artha { background-image: var(--gradient-artha); }
+  .bg-gradient-niti { background-image: var(--gradient-niti); }
   .bg-gradient-kuta { background-image: var(--gradient-kuta); }
   .bg-gradient-brand { background-image: var(--gradient-brand); }
   .shadow-soft { box-shadow: var(--shadow-soft); }

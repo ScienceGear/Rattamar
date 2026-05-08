@@ -1,4 +1,5 @@
 import arthaNita from "@/data/arthaNita.json";
+import arthaNitiQuiz from "@/data/arthaNitiQuiz.json";
 import kutayala from "@/data/kutayala.json";
 
 export interface Question {
@@ -9,7 +10,7 @@ export interface Question {
   explanation: string;
 }
 
-export type SubjectKey = "arthaNita" | "kutayala";
+export type SubjectKey = "arthaNita" | "artha-niti-quiz" | "kutayala";
 
 export interface Subject {
   key: SubjectKey;
@@ -39,6 +40,19 @@ export const SUBJECTS: Record<SubjectKey, Subject> = {
     themeText: "text-artha",
     themeBorder: "border-artha/30",
     themeSoft: "bg-artha/10",
+  },
+  "artha-niti-quiz": {
+    key: "artha-niti-quiz",
+    name: "Artha Niti Quiz",
+    tagline: "Artha Niti question bank (50 questions)",
+    questions: arthaNitiQuiz as Question[],
+    themeBg: "bg-gradient-niti",
+    themeBadge: "bg-niti text-niti-foreground",
+    themeRing: "focus-visible:ring-niti",
+    themeBtn: "bg-niti text-niti-foreground hover:opacity-90",
+    themeText: "text-niti",
+    themeBorder: "border-niti/30",
+    themeSoft: "bg-niti/10",
   },
   kutayala: {
     key: "kutayala",
