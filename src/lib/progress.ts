@@ -2,6 +2,7 @@ import type { SubjectKey } from "./quizData";
 
 export interface ProgressData {
   correctCounts: Record<number, number>;
+  incorrectCounts: Record<number, number>;
   mastered: number[];
   xp: number;
   totalCorrect: number;
@@ -37,15 +38,15 @@ function safeSet(key: string, val: unknown) {
 }
 
 export function loadProgress(key: SubjectKey): ProgressData {
-  return (
-    safeGet<ProgressData>(PROGRESS_KEY(key)) ?? {
-      correctCounts: {},
-      mastered: [],
-      xp: 0,
-      totalCorrect: 0,
-      totalAttempts: 0,
-    }
-  );
+  const raw = safeGet<ProgressData>(PROGRESS_KEY(key));
+  return {
+    correctCounts: raw?.correctCounts ?? {},
+    incorrectCounts: raw?.incorrectCounts ?? {},
+    mastered: raw?.mastered ?? [],
+    xp: raw?.xp ?? 0,
+    totalCorrect: raw?.totalCorrect ?? 0,
+    totalAttempts: raw?.totalAttempts ?? 0,
+  };
 }
 export function saveProgress(key: SubjectKey, data: ProgressData) {
   safeSet(PROGRESS_KEY(key), data);
@@ -53,6 +54,7 @@ export function saveProgress(key: SubjectKey, data: ProgressData) {
 export function resetProgress(key: SubjectKey) {
   safeSet(PROGRESS_KEY(key), {
     correctCounts: {},
+    incorrectCounts: {},
     mastered: [],
     xp: 0,
     totalCorrect: 0,

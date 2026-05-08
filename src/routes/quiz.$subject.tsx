@@ -51,7 +51,8 @@ function QuizPage() {
   }
 
   const [shuffleQuestions, setShuffleQuestions] = useState(false);
-  const [sessionQuestions, setSessionQuestions] = useState<Question[]>(() => subject.questions);
+  const [wrongOnly, setWrongOnly] = useState(false);
+  const [orderedQuestions, setOrderedQuestions] = useState<Question[]>(() => subject.questions);
   const [currentIdx, setCurrentIdx] = useState<number>(() => {
     if (typeof window === "undefined") return 0;
     if (resume === 1) {
@@ -72,7 +73,12 @@ function QuizPage() {
     bestStreak: 0,
   });
 
-  const q = sessionQuestions[currentIdx];
+  const visibleQuestions = useMemo(() => {
+    if (!wrongOnly) return orderedQuestions;
+    return orderedQuestions.filter((qq) => (progress.incorrectCounts[qq.id] ?? 0) > 0);
+  }, [orderedQuestions, progress.incorrectCounts, wrongOnly]);
+
+  const q = visibleQuestions[currentIdx];
 
   // ============================================================
   // SHUFFLE LOGIC — CRITICAL
@@ -98,10 +104,19 @@ function QuizPage() {
     if (q) prepareQuestion(q, shuffleQuestions);
   }, [q, shuffleQuestions, prepareQuestion]);
 
+  useEffect(() => {
+    if (visibleQuestions.length === 0) return;
+    if (currentIdx >= visibleQuestions.length) {
+      setCurrentIdx(visibleQuestions.length - 1);
+    }
+  }, [currentIdx, visibleQuestions.length]);
+
   // Persist last session whenever index changes
   useEffect(() => {
-    saveLast({ subjectKey: subject.key, idx: currentIdx });
-  }, [currentIdx, subject.key]);
+    if (!q) return;
+    const orderedIdx = orderedQuestions.findIndex((qq) => qq.id === q.id);
+    saveLast({ subjectKey: subject.key, idx: orderedIdx >= 0 ? orderedIdx : currentIdx });
+  }, [currentIdx, orderedQuestions, q, subject.key]);
 
   const total = subject.questions.length;
   const masteredCount = progress.mastered.length;
@@ -166,18 +181,27 @@ function QuizPage() {
     });
 
     setProgress((prev) => {
-      const next = { ...prev, correctCounts: { ...prev.correctCounts }, mastered: [...prev.mastered] };
+      const next = {
+        ...prev,
+        correctCounts: { ...prev.correctCounts },
+        incorrectCounts: { ...prev.incorrectCounts },
+        mastered: [...prev.mastered],
+      };
       next.totalAttempts++;
       if (isCorrect) {
         next.totalCorrect++;
         next.xp += 10;
         next.correctCounts[q.id] = (next.correctCounts[q.id] || 0) + 1;
+        if (next.incorrectCounts[q.id]) {
+          next.incorrectCounts[q.id] = Math.max(0, next.incorrectCounts[q.id] - 1);
+        }
         // Mastery: 2 correct answers
         if (next.correctCounts[q.id] >= 2 && !next.mastered.includes(q.id)) {
           next.mastered.push(q.id);
         }
       } else {
         next.xp += 3;
+        next.incorrectCounts[q.id] = (next.incorrectCounts[q.id] || 0) + 1;
         if (next.correctCounts[q.id]) {
           next.correctCounts[q.id] = Math.max(0, next.correctCounts[q.id] - 1);
         }
@@ -188,7 +212,7 @@ function QuizPage() {
   };
 
   const goNext = () => {
-    if (currentIdx < sessionQuestions.length - 1) setCurrentIdx((i) => i + 1);
+    if (currentIdx < visibleQuestions.length - 1) setCurrentIdx((i) => i + 1);
   };
   const goPrev = () => {
     if (currentIdx > 0) setCurrentIdx((i) => i - 1);
@@ -197,10 +221,24 @@ function QuizPage() {
   const toggleShuffle = () => {
     if (!q) return;
     const newVal = !shuffleQuestions;
-    setShuffleQuestions(newVal);
     const reordered = newVal ? shuffleArr(subject.questions) : subject.questions.slice();
-    setSessionQuestions(reordered);
-    const newIdx = reordered.findIndex((x) => x.id === q.id);
+    const filtered = wrongOnly
+      ? reordered.filter((qq) => (progress.incorrectCounts[qq.id] ?? 0) > 0)
+      : reordered;
+    setShuffleQuestions(newVal);
+    setOrderedQuestions(reordered);
+    const newIdx = filtered.findIndex((qq) => qq.id === q.id);
+    setCurrentIdx(newIdx >= 0 ? newIdx : 0);
+  };
+
+  const toggleWrongOnly = () => {
+    if (!q) return;
+    const newVal = !wrongOnly;
+    const filtered = newVal
+      ? orderedQuestions.filter((qq) => (progress.incorrectCounts[qq.id] ?? 0) > 0)
+      : orderedQuestions;
+    setWrongOnly(newVal);
+    const newIdx = filtered.findIndex((qq) => qq.id === q.id);
     setCurrentIdx(newIdx >= 0 ? newIdx : 0);
   };
 
@@ -216,6 +254,25 @@ function QuizPage() {
 
   if (masteredCount >= total) {
     return <CompleteScreen subjectKey={subject.key} />;
+  }
+
+  if (visibleQuestions.length === 0) {
+    return (
+      <div className="mx-auto w-full max-w-2xl px-4 py-10 animate-fade-up">
+        <div className="rounded-3xl border border-border bg-card p-6 text-center shadow-soft sm:p-8">
+          <div className="text-sm font-semibold">No wrong questions yet</div>
+          <p className="mt-2 text-sm text-muted-foreground">
+            Answer a question incorrectly to build a wrong-only review set.
+          </p>
+          <button
+            onClick={() => setWrongOnly(false)}
+            className={`mt-4 inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-bold shadow-soft ${subject.themeBtn}`}
+          >
+            Show all questions
+          </button>
+        </div>
+      </div>
+    );
   }
 
   if (!q) return null;
@@ -242,16 +299,28 @@ function QuizPage() {
               <div className="text-base font-bold sm:text-lg">{subject.name}</div>
             </div>
           </div>
-          <button
-            onClick={toggleShuffle}
-            className={`inline-flex items-center gap-2 rounded-xl px-3 py-1.5 text-xs font-semibold transition-colors ${
-              shuffleQuestions ? "bg-white text-foreground" : "bg-white/15 text-white hover:bg-white/25"
-            }`}
-            title="Toggle question shuffle"
-          >
-            <Shuffle className="h-3.5 w-3.5" />
-            Shuffle Qs {shuffleQuestions ? "ON" : "OFF"}
-          </button>
+          <div className="flex flex-wrap items-center gap-2">
+            <button
+              onClick={toggleShuffle}
+              className={`inline-flex items-center gap-2 rounded-xl px-3 py-1.5 text-xs font-semibold transition-colors ${
+                shuffleQuestions ? "bg-white text-foreground" : "bg-white/15 text-white hover:bg-white/25"
+              }`}
+              title="Toggle question shuffle"
+            >
+              <Shuffle className="h-3.5 w-3.5" />
+              Shuffle Qs {shuffleQuestions ? "ON" : "OFF"}
+            </button>
+            <button
+              onClick={toggleWrongOnly}
+              className={`inline-flex items-center gap-2 rounded-xl px-3 py-1.5 text-xs font-semibold transition-colors ${
+                wrongOnly ? "bg-white text-foreground" : "bg-white/15 text-white hover:bg-white/25"
+              }`}
+              title="Show only wrong questions"
+            >
+              <X className="h-3.5 w-3.5" />
+              Wrong Only {wrongOnly ? "ON" : "OFF"}
+            </button>
+          </div>
         </div>
         <div className="flex items-center gap-3 px-4 py-3 sm:px-6">
           <span
@@ -285,7 +354,7 @@ function QuizPage() {
       <div className="mt-5 rounded-3xl border border-border bg-card p-5 shadow-soft sm:p-7">
         <div className="mb-3 flex items-center justify-between text-xs text-muted-foreground">
           <span className="font-semibold">
-            Question {currentIdx + 1} <span className="text-muted-foreground/70">/ {sessionQuestions.length}</span>
+            Question {currentIdx + 1} <span className="text-muted-foreground/70">/ {visibleQuestions.length}</span>
           </span>
           {progress.mastered.includes(q.id) ? (
             <span className="inline-flex items-center gap-1 rounded-full bg-success/15 px-2 py-0.5 text-[11px] font-semibold text-success">
@@ -363,7 +432,7 @@ function QuizPage() {
             <ArrowLeft className="h-4 w-4" /> Prev
           </button>
           {answered ? (
-            currentIdx < sessionQuestions.length - 1 ? (
+            currentIdx < visibleQuestions.length - 1 ? (
               <button
                 onClick={goNext}
                 className={`inline-flex items-center gap-1.5 rounded-xl px-5 py-2.5 text-sm font-bold shadow-soft ${subject.themeBtn}`}
