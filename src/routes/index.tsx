@@ -1,6 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Sparkles, Trophy, Flame, BookOpen, ChevronRight, RotateCcw } from "lucide-react";
+import ExamFeedback from "@/components/exam-feedback";
+import { APP_CONFIG } from "@/lib/appConfig";
 import { SUBJECT_LIST, SUBJECTS, type Subject } from "@/lib/quizData";
 import { loadProgress, loadLast, saveLast, getBadge } from "@/lib/progress";
 
@@ -13,6 +15,30 @@ function HomePage() {
   // Re-read localStorage after mount (it's client-only)
   useEffect(() => setTick((n) => n + 1), []);
   void tick;
+
+  if (APP_CONFIG.showExamFeedback) {
+    return (
+      <div className="mx-auto w-full max-w-5xl px-4 py-10 sm:py-14 animate-fade-up">
+        <header className="mb-8 text-center sm:mb-12">
+          <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-4 py-1.5 text-xs font-medium text-muted-foreground shadow-soft backdrop-blur">
+            <Sparkles className="h-3.5 w-3.5 text-primary" />
+            Live exam mode
+          </div>
+          <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">
+            We are collecting feedback
+          </h1>
+          <p className="mx-auto mt-3 max-w-2xl text-sm text-muted-foreground sm:text-base">
+            The exam is over, and this space is now focused on your feedback only.
+          </p>
+        </header>
+
+        <ExamFeedback
+          headline="Thank you for joining the live exam"
+          subhead="Share your name and a short message. Your response stays on this page."
+        />
+      </div>
+    );
+  }
 
   const last = typeof window !== "undefined" ? loadLast() : null;
   const lastSubject = last && SUBJECTS[last.subjectKey];
