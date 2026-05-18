@@ -43,6 +43,14 @@ function HomePage() {
   const last = typeof window !== "undefined" ? loadLast() : null;
   const lastSubject = last && SUBJECTS[last.subjectKey];
 
+  const hiddenSubjectKeys = [
+    "arthaNita",
+    "artha-niti-quiz",
+    "kutayala",
+    "kutayala-quiz",
+  ] as const;
+  const visibleSubjects = SUBJECT_LIST.filter((s) => !hiddenSubjectKeys.includes(s.key));
+
   return (
     <div className="mx-auto w-full max-w-5xl px-4 py-8 sm:py-14 animate-fade-up">
       {/* Hero */}
@@ -86,20 +94,12 @@ function HomePage() {
       </h2>
 
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
-        {(
-          // Hide some subjects (legacy / internal) per request
-          SUBJECT_LIST.filter(
-            (s) =>
-              !["arthaNita", "artha-niti-quiz", "kutayala", "kutayala-quiz"].includes(
-                s.key,
-              ),
-          ).map((s) => (
-            <SubjectCard key={s.key} subject={s} />
-          ))
-        )}
+        {visibleSubjects.map((s) => (
+          <SubjectCard key={s.key} subject={s} />
+        ))}
       </div>
 
-      <Stats />
+      <Stats subjects={visibleSubjects} />
     </div>
   );
 }
@@ -217,13 +217,10 @@ function ResumeBar({
   );
 }
 
-function Stats() {
-  const totalQs = SUBJECT_LIST.reduce((a, s) => a + s.questions.length, 0);
-  const totalMastered = SUBJECT_LIST.reduce(
-    (a, s) => a + loadProgress(s.key).mastered.length,
-    0,
-  );
-  const totalXp = SUBJECT_LIST.reduce((a, s) => a + loadProgress(s.key).xp, 0);
+function Stats({ subjects }: { subjects: Subject[] }) {
+  const totalQs = subjects.reduce((a, s) => a + s.questions.length, 0);
+  const totalMastered = subjects.reduce((a, s) => a + loadProgress(s.key).mastered.length, 0);
+  const totalXp = subjects.reduce((a, s) => a + loadProgress(s.key).xp, 0);
   return (
     <div className="mt-10 grid grid-cols-3 gap-3 sm:gap-4">
       <StatCell label="Questions" value={totalQs} />
