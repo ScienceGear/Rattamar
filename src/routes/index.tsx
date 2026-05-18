@@ -94,9 +94,17 @@ function HomePage() {
       </h2>
 
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
-        {SUBJECT_LIST.map((s) => (
-          <SubjectCard key={s.key} subject={s} />
-        ))}
+        {(
+          // Hide some subjects (legacy / internal) per request
+          SUBJECT_LIST.filter(
+            (s) =>
+              !["arthaNita", "artha-niti-quiz", "kutayala", "kutayala-quiz"].includes(
+                s.key,
+              ),
+          ).map((s) => (
+            <SubjectCard key={s.key} subject={s} />
+          ))
+        )}
       </div>
 
       <Stats />
