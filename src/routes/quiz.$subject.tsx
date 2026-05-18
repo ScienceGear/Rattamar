@@ -538,7 +538,6 @@ function CompleteScreen({ subjectKey }: { subjectKey: SubjectKey }) {
             .
           </p>
           <p className="mt-2 text-sm text-muted-foreground">It's over now — great job!</p>
-          </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             <button
               onClick={() => {
