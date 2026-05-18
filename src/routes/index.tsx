@@ -59,20 +59,12 @@ function HomePage() {
         </p>
         <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
           <a
-            href="/Artha Niti_QB.pdf"
+            href="/GDNT_mcq.pdf"
             download
             className="inline-flex items-center gap-2 rounded-xl bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground hover:opacity-90 transition-opacity"
           >
             <BookOpen className="h-4 w-4" />
-            Download Artha Niti PDF
-          </a>
-          <a
-            href="/Kautilya's Arthashastra_QB.pdf"
-            download
-            className="inline-flex items-center gap-2 rounded-xl bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground hover:opacity-90 transition-opacity"
-          >
-            <BookOpen className="h-4 w-4" />
-            Download Kautilya's Arthashastra PDF
+            Download GDNT QB
           </a>
         </div>
       </header>
