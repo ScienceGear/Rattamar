@@ -11,7 +11,9 @@ import {
   Sparkles,
   Trophy,
   X,
+  Flag,
 } from "lucide-react";
+import GDNTSymbol from "@/lib/gdntSymbols";
 import { APP_CONFIG } from "@/lib/appConfig";
 import ExamFeedback from "@/components/exam-feedback";
 import { SUBJECTS, type Question, type SubjectKey } from "@/lib/quizData";
@@ -297,6 +299,22 @@ function QuizPage() {
 
   const labels = ["A", "B", "C", "D"];
 
+  const renderInline = (text: string) => {
+    // replace tokens like {sym:AND} with the GDNTSymbol component
+    const parts: any[] = [];
+    const re = /\{sym:([A-Z0-9_]+)\}/g;
+    let lastIndex = 0;
+    let m: RegExpExecArray | null;
+    while ((m = re.exec(text)) !== null) {
+      const idx = m.index;
+      if (idx > lastIndex) parts.push(text.slice(lastIndex, idx));
+      parts.push(<GDNTSymbol key={parts.length} name={m[1]} />);
+      lastIndex = idx + m[0].length;
+    }
+    if (lastIndex < text.length) parts.push(text.slice(lastIndex));
+    return parts;
+  };
+
   return (
     <div className="mx-auto w-full max-w-3xl px-4 py-5 sm:py-8 animate-fade-up">
       {/* Top bar */}
@@ -312,9 +330,9 @@ function QuizPage() {
             </button>
             <div>
               <div className="text-[10px] uppercase tracking-widest text-white/80">
-                You are learning
-              </div>
-              <div className="text-base font-bold sm:text-lg">{subject.name}</div>
+                  CGD MCQ practice
+                </div>
+                <div className="text-base font-bold sm:text-lg">{subject.name}</div>
             </div>
           </div>
           <div className="flex flex-wrap items-center gap-2">
@@ -335,8 +353,8 @@ function QuizPage() {
               }`}
               title="Show only wrong questions"
             >
-              <X className="h-3.5 w-3.5" />
-              Wrong Only {wrongOnly ? "ON" : "OFF"}
+              <Flag className="h-3.5 w-3.5" />
+              Review Wrong {wrongOnly ? "ON" : "OFF"}
             </button>
           </div>
         </div>
@@ -385,7 +403,7 @@ function QuizPage() {
           )}
         </div>
 
-        <h2 className="text-lg font-bold leading-snug sm:text-xl">{q.question}</h2>
+        <h2 className="text-lg font-bold leading-snug sm:text-xl">{renderInline(q.question)}</h2>
 
         <div className="mt-5 space-y-2.5">
           {shuffledOptions.map((opt, i) => {
@@ -425,7 +443,7 @@ function QuizPage() {
                 >
                   {labels[i]}
                 </span>
-                <span className="flex-1 text-sm sm:text-base">{opt}</span>
+                <span className="flex-1 text-sm sm:text-base">{renderInline(opt as string)}</span>
                 {icon}
               </button>
             );
@@ -518,6 +536,8 @@ function CompleteScreen({ subjectKey }: { subjectKey: SubjectKey }) {
               Master
             </span>
             .
+          </p>
+          <p className="mt-2 text-sm text-muted-foreground">It's over now — great job!</p>
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             <button

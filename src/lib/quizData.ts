@@ -2,6 +2,7 @@ import arthaNita from "@/data/arthaNita.json";
 import arthaNitiQuiz from "@/data/arthaNitiQuiz.json";
 import kutayala from "@/data/kutayala.json";
 import kutayalaQuiz from "@/data/kutayalaQuiz.json";
+import gdntQuiz from "@/data/gdntQuiz.json";
 
 export interface Question {
   id: number;
@@ -11,7 +12,7 @@ export interface Question {
   explanation: string;
 }
 
-export type SubjectKey = "arthaNita" | "artha-niti-quiz" | "kutayala" | "kutayala-quiz";
+export type SubjectKey = "arthaNita" | "artha-niti-quiz" | "kutayala" | "kutayala-quiz" | "gdnt-quiz";
 
 export interface Subject {
   key: SubjectKey;
@@ -80,6 +81,19 @@ export const SUBJECTS: Record<SubjectKey, Subject> = {
     themeText: "text-kuta",
     themeBorder: "border-kuta/30",
     themeSoft: "bg-kuta/10",
+  },
+  "gdnt-quiz": {
+    key: "gdnt-quiz",
+    name: "GDNT",
+    tagline: "CGD MCQ practice — GDNT symbols included",
+    questions: gdntQuiz as Question[],
+    themeBg: "bg-gradient-niti",
+    themeBadge: "bg-niti text-niti-foreground",
+    themeRing: "focus-visible:ring-niti",
+    themeBtn: "bg-niti text-niti-foreground hover:opacity-90",
+    themeText: "text-niti",
+    themeBorder: "border-niti/30",
+    themeSoft: "bg-niti/10",
   },
 };
 

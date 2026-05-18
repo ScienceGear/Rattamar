@@ -1,0 +1,924 @@
+[
+  {
+    "id": 1,
+    "question": "What is the main purpose of Geometric Dimensioning and Tolerancing (GD&T)?",
+    "options": [
+      "To increase manufacturing costs",
+      "To define size, form, orientation, and location of features",
+      "To color engineering drawings",
+      "To replace engineering materials"
+    ],
+    "correctAnswer": 1,
+    "explanation": "GD&T is a symbolic language used in engineering drawings to clearly define the allowable variation in geometry and dimensions of parts."
+  },
+  {
+    "id": 2,
+    "question": "Which standard is commonly used for GD&T?",
+    "options": ["ISO 9001","ASME Y14.5","ASTM A36","IEEE 802"],
+    "correctAnswer": 1,
+    "explanation": "ASME Y14.5 is the widely accepted standard that provides rules and symbols for GD&T."
+  },
+  {
+    "id": 3,
+    "question": "What does a datum represent in GD&T?",
+    "options": ["A machining process","A reference point, axis, or surface","A type of material","A measurement instrument"],
+    "correctAnswer": 1,
+    "explanation": "A datum is an exact reference used to establish measurement and inspection locations."
+  },
+  {
+    "id": 4,
+    "question": "Which symbol is used for straightness in GD&T?",
+    "options": ["Circle","Square","Straight line — ―","Triangle"],
+    "correctAnswer": 2,
+    "explanation": "The straightness symbol controls how much a feature may deviate from a perfect straight line."
+  },
+  {
+    "id": 5,
+    "question": "GD&T mainly helps in:",
+    "options": ["Improving communication in engineering drawings","Increasing product weight","Reducing machine speed","Changing material properties"],
+    "correctAnswer": 0,
+    "explanation": "GD&T provides a universal engineering language that improves clarity between design, manufacturing, and inspection teams."
+  },
+  {
+    "id": 6,
+    "question": "Which GD&T characteristic controls the roundness of a feature?",
+    "options": ["Flatness","Circularity","Parallelism","Symmetry"],
+    "correctAnswer": 1,
+    "explanation": "Circularity ensures that every circular element of a feature remains within specified tolerance limits."
+  },
+  {
+    "id": 7,
+    "question": "In GD&T, the feature control frame is used to:",
+    "options": ["Show material type","Specify geometric tolerances","Define heat treatment","Indicate surface color"],
+    "correctAnswer": 1,
+    "explanation": "The feature control frame contains symbols, tolerance values, and datum references related to geometric controls."
+  },
+  {
+    "id": 8,
+    "question": "Which tolerance controls the flatness of the surface?",
+    "options": ["Flatness tolerance","Profile tolerance","Runout tolerance","Angularity tolerance"],
+    "correctAnswer": 0,
+    "explanation": "Flatness tolerance limits the variation of a surface from an ideal flat plane."
+  },
+  {
+    "id": 9,
+    "question": "Which of the following is an orientation control in GD&T?",
+    "options": ["Straightness","Circularity","Perpendicularity","Position"],
+    "correctAnswer": 2,
+    "explanation": "Perpendicularity controls the orientation of a feature at 90° relative to a datum."
+  },
+  {
+    "id": 10,
+    "question": "What is the advantage of using GD&T over traditional tolerancing?",
+    "options": ["It increases ambiguity","It reduces manufacturing accuracy","It provides better functional control of parts","It eliminates the need for dimensions"],
+    "correctAnswer": 2,
+    "explanation": "GD&T ensures that parts fit and function properly while allowing reasonable manufacturing variations."
+  },
+  {
+    "id": 11,
+    "question": "Which GD&T control is most suitable for controlling the exact location of a hole?",
+    "options": ["Flatness","Position","Circularity","Straightness"],
+    "correctAnswer": 1,
+    "explanation": "Position tolerance precisely controls the allowable variation in the location of features such as holes."
+  },
+  {
+    "id": 12,
+    "question": "In GD&T, Maximum Material Condition (MMC) refers to:",
+    "options": ["The condition with minimum material","The average material condition","The condition where a feature contains the maximum amount of material","The condition of zero tolerance"],
+    "correctAnswer": 2,
+    "explanation": "MMC occurs when a feature is at its maximum material size, such as the largest shaft or smallest hole."
+  },
+  {
+    "id": 13,
+    "question": "Which geometric characteristic belongs to the form tolerance category?",
+    "options": ["Parallelism","Position","Cylindricity","Angularity"],
+    "correctAnswer": 2,
+    "explanation": "Cylindricity controls the overall form of a cylindrical feature and belongs to form tolerances."
+  },
+  {
+    "id": 14,
+    "question": "A datum reference frame in GD&T is established using:",
+    "options": ["Colors and notes","One or more datums","Surface roughness values","Machining parameters"],
+    "correctAnswer": 1,
+    "explanation": "A datum reference frame is created from specified datums to provide a consistent coordinate system for measurement."
+  },
+  {
+    "id": 15,
+    "question": "Which statement about GD&T is correct?",
+    "options": ["GD&T only controls dimensions","GD&T replaces all measurements","GD&T defines allowable geometric variation in manufactured parts","GD&T is only used for casting operations"],
+    "correctAnswer": 2,
+    "explanation": "GD&T specifies acceptable geometric variations to ensure proper assembly, interchangeability, and functionality of parts."
+  },
+  {
+    "id": 16,
+    "question": "What is the main purpose of dimensioning in engineering drawings?",
+    "options": ["To decorate the drawing","To specify the size and location of features","To increase drawing thickness","To reduce material strength"],
+    "correctAnswer": 1,
+    "explanation": "Dimensioning provides clear information about the size, shape, and position of features required for manufacturing and inspection."
+  },
+  {
+    "id": 17,
+    "question": "Which of the following is a basic rule of dimensioning?",
+    "options": ["Dimensions should be repeated many times","Dimensions should be placed clearly and neatly","Dimensions should overlap each other","Dimensions should be written randomly"],
+    "correctAnswer": 1,
+    "explanation": "Clear and neat placement of dimensions improves readability and avoids confusion during manufacturing."
+  },
+  {
+    "id": 18,
+    "question": "Why is proper dimensioning important in manufacturing?",
+    "options": ["It increases machine noise","It ensures accurate production of parts","It changes material properties","It reduces drawing size"],
+    "correctAnswer": 1,
+    "explanation": "Correct dimensioning helps manufacturers produce components with the required accuracy and functionality."
+  },
+  {
+    "id": 19,
+    "question": "In engineering drawings, dimensions are usually expressed in:",
+    "options": ["Colors","Symbols only","Numerical values","Pictures"],
+    "correctAnswer": 2,
+    "explanation": "Dimensions are represented using numerical values along with units and symbols for precise communication."
+  },
+  {
+    "id": 20,
+    "question": "Which line is mainly used for showing dimensions?",
+    "options": ["Border line","Dimension line","Center line","Object line"],
+    "correctAnswer": 1,
+    "explanation": "Dimension lines indicate the direction and extent of a dimension in a drawing."
+  },
+  {
+    "id": 21,
+    "question": "Which rule should be followed while dimensioning a drawing?",
+    "options": ["Avoid unnecessary dimensions","Repeat dimensions frequently","Place dimensions inside object lines only","Use different units in one drawing"],
+    "correctAnswer": 0,
+    "explanation": "Unnecessary dimensions can create confusion and increase the chances of errors."
+  },
+  {
+    "id": 22,
+    "question": "What is the importance of standardized dimensioning rules?",
+    "options": ["They reduce material hardness","They improve communication between engineers and manufacturers","They increase drawing costs","They eliminate measurements"],
+    "correctAnswer": 1,
+    "explanation": "Standardized rules ensure everyone interprets the drawing in the same way."
+  },
+  {
+    "id": 23,
+    "question": "Which of the following should generally not be done in dimensioning?",
+    "options": ["Provide sufficient dimensions","Keep dimensions readable","Cross dimension lines unnecessarily","Use standard symbols"],
+    "correctAnswer": 2,
+    "explanation": "Crossing dimension lines makes drawings difficult to read and should be minimized."
+  },
+  {
+    "id": 24,
+    "question": "The dimensions of a drawing should primarily be based on:",
+    "options": ["Appearance of the drawing","Manufacturing and functional requirements","Color selection","Weight of the paper"],
+    "correctAnswer": 1,
+    "explanation": "Dimensions must support proper manufacturing, assembly, and functioning of the component."
+  },
+  {
+    "id": 25,
+    "question": "Which method places dimensions in line with the dimension line so they can be read from the bottom or right side?",
+    "options": ["Chain dimensioning","Aligned method","Baseline dimensioning","Coordinate dimensioning"],
+    "correctAnswer": 1,
+    "explanation": "In the aligned method, dimension values are placed parallel to dimension lines and read from the bottom or right side."
+  },
+  {
+    "id": 26,
+    "question": "Why should dimensions not be duplicated in engineering drawings?",
+    "options": ["It increases paper usage","It may create conflicts and confusion","It changes material properties","It improves drawing quality"],
+    "correctAnswer": 1,
+    "explanation": "Duplicate dimensions can lead to inconsistencies and manufacturing errors if values do not match."
+  },
+  {
+    "id": 27,
+    "question": "Which dimensioning practice best supports interchangeability of parts?",
+    "options": ["Random dimension placement","Functional dimensioning","Decorative dimensioning","Approximate dimensioning"],
+    "correctAnswer": 1,
+    "explanation": "Functional dimensioning ensures that manufactured parts fit and work correctly with mating components."
+  },
+  {
+    "id": 28,
+    "question": "In proper dimensioning practice, dimensions should be given:",
+    "options": ["According to the convenience of the drafter only","According to manufacturing and inspection needs","Without considering tolerance","Only on isometric views"],
+    "correctAnswer": 1,
+    "explanation": "Dimensions must help both manufacturing and quality inspection processes."
+  },
+  {
+    "id": 29,
+    "question": "What is the main disadvantage of poor dimensioning?",
+    "options": ["Improved readability","Increased production accuracy","Manufacturing and assembly errors","Reduced drawing time"],
+    "correctAnswer": 2,
+    "explanation": "Incorrect or unclear dimensions can result in defective parts and assembly problems."
+  },
+  {
+    "id": 30,
+    "question": "Which statement is correct regarding dimensioning rules?",
+    "options": ["Every feature should be dimensioned more than once","Hidden lines should preferably not be dimensioned","Dimensions can be placed randomly","Units should change frequently within the drawing"],
+    "correctAnswer": 1,
+    "explanation": "Dimensioning hidden lines reduces clarity. Dimensions should preferably be placed on visible features whenever possible."
+  },
+  {
+    "id": 31,
+    "question": "What is meant by tolerance in engineering?",
+    "options": ["Exact size of a part","Difference between upper and lower limits","Maximum size only","Minimum size only"],
+    "correctAnswer": 1,
+    "explanation": "Tolerance is the permissible variation in a dimension and is calculated as the difference between maximum and minimum limits."
+  },
+  {
+    "id": 32,
+    "question": "The maximum allowable size of a part is called:",
+    "options": ["Basic size","Lower limit","Upper limit","Tolerance"],
+    "correctAnswer": 2,
+    "explanation": "The upper limit is the highest permissible dimension of a component."
+  },
+  {
+    "id": 33,
+    "question": "Which fit provides always a gap between shaft and hole?",
+    "options": ["Interference fit","Transition fit","Clearance fit","Tight fit"],
+    "correctAnswer": 2,
+    "explanation": "In a clearance fit, the hole size is always larger than the shaft size, ensuring free movement."
+  },
+  {
+    "id": 34,
+    "question": "What is the lower limit of a dimension?",
+    "options": ["Largest permissible size","Average size","Smallest permissible size","Basic size"],
+    "correctAnswer": 2,
+    "explanation": "The lower limit is the minimum acceptable dimension for a component."
+  },
+  {
+    "id": 35,
+    "question": "Which type of fit may result in either clearance or interference?",
+    "options": ["Clearance fit","Transition fit","Interference fit","Running fit"],
+    "correctAnswer": 1,
+    "explanation": "Transition fits may provide either a small clearance or slight interference depending on actual dimensions."
+  },
+  {
+    "id": 36,
+    "question": "A shaft has limits of 24.98 mm and 25.02 mm. What is tolerance?",
+    "options": ["0.02 mm","0.03 mm","0.04 mm","0.05 mm"],
+    "correctAnswer": 2,
+    "explanation": "Tolerance = Upper limit − Lower limit = 25.02 − 24.98 = 0.04 mm" 
+  },
+  {
+    "id": 37,
+    "question": "Which fit is generally used for permanent assembly?",
+    "options": ["Clearance fit","Transition fit","Interference fit","Running fit"],
+    "correctAnswer": 2,
+    "explanation": "Interference fits are used where components are intended to remain firmly assembled."
+  },
+  {
+    "id": 38,
+    "question": "In a hole-basis system, which feature remains constant?",
+    "options": ["Shaft size","Hole size","Tolerance value","Basic size of shaft only"],
+    "correctAnswer": 1,
+    "explanation": "In the hole-basis system, the hole size is kept constant while shaft size varies to obtain different fits."
+  },
+  {
+    "id": 39,
+    "question": "Which of the following best defines limits?",
+    "options": ["Exact dimensions of part","Maximum and minimum permissible sizes","Difference between sizes","Surface finish values"],
+    "correctAnswer": 1,
+    "explanation": "Limits specify the allowable extreme sizes for a dimension."
+  },
+  {
+    "id": 40,
+    "question": "A hole size varies from 40.00 mm to 40.05 mm. What is the tolerance of the hole?",
+    "options": ["0.02 mm","0.03 mm","0.04 mm","0.05 mm"],
+    "correctAnswer": 3,
+    "explanation": "Tolerance = 40.05 − 40.00 = 0.05 mm" 
+  },
+  {
+    "id": 41,
+    "question": "Which fit is suitable for parts requiring accurate location but easy assembly?",
+    "options": ["Interference fit","Clearance fit","Transition fit","Loose fit"],
+    "correctAnswer": 2,
+    "explanation": "Transition fits provide accurate alignment with limited clearance or interference."
+  },
+  {
+    "id": 42,
+    "question": "A shaft diameter is 20.02 mm and the hole diameter is 20.00 mm. Which type of fit is obtained?",
+    "options": ["Clearance fit","Transition fit","Interference fit","Running fit"],
+    "correctAnswer": 2,
+    "explanation": "Since the shaft is larger than the hole, interference occurs during assembly."
+  },
+  {
+    "id": 43,
+    "question": "What is the allowance in a clearance fit?",
+    "options": ["Minimum interference between hole and shaft","Maximum interference between hole and shaft","Minimum clearance between hole and shaft","Difference between basic sizes only"],
+    "correctAnswer": 2,
+    "explanation": "Allowance is the intentional difference between mating parts and equals minimum clearance in clearance fits."
+  },
+  {
+    "id": 44,
+    "question": "A hole has limits of 50.00 mm and 50.04 mm, while a shaft has limits of 49.96 mm and 49.98 mm. What is the maximum clearance?",
+    "options": ["0.02 mm","0.04 mm","0.06 mm","0.08 mm"],
+    "correctAnswer": 3,
+    "explanation": "Maximum clearance = Maximum hole size − Minimum shaft size = 50.04 − 49.96 = 0.08 mm" 
+  },
+  {
+    "id": 45,
+    "question": "Which statement about tolerances is correct?",
+    "options": ["Zero tolerance is always practical in manufacturing","Tolerances allow permissible variation in dimensions","Tolerances eliminate inspection","Tolerances increase manufacturing errors"],
+    "correctAnswer": 1,
+    "explanation": "Tolerances are necessary because exact dimensions cannot be achieved economically in manufacturing."
+  },
+  {
+    "id": 46,
+    "question": "A shaft has dimensions 30 ± 0.02 mm. What are the upper and lower limits?",
+    "options": ["30.01 mm and 29.99 mm","30.02 mm and 29.98 mm","30.04 mm and 29.96 mm","30.03 mm and 29.97 mm"],
+    "correctAnswer": 1,
+    "explanation": "Upper limit = 30 + 0.02 = 30.02 mm; Lower limit = 30 − 0.02 = 29.98 mm" 
+  },
+  {
+    "id": 47,
+    "question": "What is the purpose of symbolic representation in engineering drawing?",
+    "options": ["To decorate the drawing","To provide standard information quickly and clearly","To increase drawing size","To replace dimensions completely"],
+    "correctAnswer": 1,
+    "explanation": "Symbols help engineers communicate geometrical information in a simple and universally understood manner."
+  },
+  {
+    "id": 48,
+    "question": "Which symbol is commonly used to represent diameter?",
+    "options": ["□ — (square)","R — Radius","Ø — Diameter","⊥ — Perpendicularity"],
+    "correctAnswer": 2,
+    "explanation": "The symbol Ø indicates the diameter of a circular feature."
+  },
+  {
+    "id": 49,
+    "question": "What does the symbol “R” represent in engineering drawings?",
+    "options": ["Roughness","Radius","Rotation","Reference"],
+    "correctAnswer": 1,
+    "explanation": "The symbol “R” is used before a dimension to indicate the radius of an arc or circle."
+  },
+  {
+    "id": 50,
+    "question": "Which geometrical object is represented by the symbol “⊥”?",
+    "options": ["Parallelism","Circularity","Perpendicularity","Straightness"],
+    "correctAnswer": 2,
+    "explanation": "The symbol “⊥” indicates that two surfaces or axes must be at 90° to each other."
+  },
+  {
+    "id": 51,
+    "question": "In engineering graphics, the center line is generally represented by:",
+    "options": ["Thick continuous line","Dashed thick line","Long dash-short dash thin line","Zigzag line"],
+    "correctAnswer": 2,
+    "explanation": "Center lines are used to represent axes and centers of circular objects."
+  },
+  {
+    "id": 52,
+    "question": "Which symbol represents parallelism in GD&T?",
+    "options": ["∥ — Parallelism","⊥ — Perpendicularity","○ — Circularity","⌖ — Position"],
+    "correctAnswer": 0,
+    "explanation": "The parallelism symbol indicates that a feature must remain parallel to a datum reference."
+  },
+  {
+    "id": 53,
+    "question": "The symbol “⌖” in GD&T represents:",
+    "options": ["Flatness","Position","Circularity","Symmetry"],
+    "correctAnswer": 1,
+    "explanation": "The position symbol controls the exact location of a feature relative to datums."
+  },
+  {
+    "id": 54,
+    "question": "Which symbol is used to indicate surface roughness?",
+    "options": ["V-shaped symbol — (surface finish)","Circle","Triangle","Rectangle"],
+    "correctAnswer": 0,
+    "explanation": "A surface finish symbol is commonly represented by a check-mark or V-shaped symbol."
+  },
+  {
+    "id": 55,
+    "question": "What does the symbol “○” represent in GD&T?",
+    "options": ["Circularity","Cylindricity","Diameter","Radius"],
+    "correctAnswer": 0,
+    "explanation": "Circularity controls how closely a feature approaches a perfect circle."
+  },
+  {
+    "id": 56,
+    "question": "Which line type is used to represent hidden geometrical objects?",
+    "options": ["Continuous thick line","Continuous thin line","Dashed thin line","Chain thick line"],
+    "correctAnswer": 2,
+    "explanation": "Hidden lines show edges or surfaces that are not directly visible in a view."
+  },
+  {
+    "id": 57,
+    "question": "Which GD&T symbol controls the orientation of a feature at an angle other than 90°?",
+    "options": ["Parallelism","Straightness","Angularity","Circularity"],
+    "correctAnswer": 2,
+    "explanation": "Angularity controls the inclination of a feature relative to a datum at a specified angle."
+  },
+  {
+    "id": 58,
+    "question": "The symbol for flatness in GD&T is used to control:",
+    "options": ["Roundness of a surface","Straightness of an axis","Uniform flatness of a surface","Position of holes"],
+    "correctAnswer": 2,
+    "explanation": "Flatness ensures that a surface lies within two parallel planes."
+  },
+  {
+    "id": 59,
+    "question": "Which symbol is associated with concentricity in GD&T?",
+    "options": ["◎ — Concentricity","∥","⊥","⌒"],
+    "correctAnswer": 0,
+    "explanation": "The concentricity symbol controls the alignment of the center points of circular features."
+  },
+  {
+    "id": 60,
+    "question": "What is the meaning of the datum symbol in engineering drawings?",
+    "options": ["Surface finish requirement","Reference feature for measurement","Hidden feature location","Material specifications"],
+    "correctAnswer": 1,
+    "explanation": "A datum provides a reference point, line, or surface for dimensioning and tolerancing."
+  },
+  {
+    "id": 61,
+    "question": "Which statement about symbolic representation is correct?",
+    "options": ["Symbols increase ambiguity in drawings","Symbols are standardized for universal understanding","Symbols are only used in machine design","Symbols replace all written notes"],
+    "correctAnswer": 1,
+    "explanation": "Engineering symbols follow international standards to ensure clear communication among engineers, manufacturers, and inspectors."
+  },
+  {
+    "id": 62,
+    "question": "What is the primary use of GD&T in computer graphics-based design software?",
+    "options": ["To change drawing colors","To define and control geometric features accurately","To increase file size","To replace CAD software"],
+    "correctAnswer": 1,
+    "explanation": "GD&T in CAD software helps designers specify the allowable variation in geometry and dimensions of parts."
+  },
+  {
+    "id": 63,
+    "question": "Which type of software is commonly used for applying GD&T in computer graphics?",
+    "options": ["Word processing software","Spreadsheet software","CAD software","Video editing software"],
+    "correctAnswer": 2,
+    "explanation": "Computer-Aided Design (CAD) software is widely used for creating and interpreting GD&T-based engineering drawings."
+  },
+  {
+    "id": 64,
+    "question": "In CAD drawings, GD&T symbols are generally placed inside:",
+    "options": ["Object lines","Feature control frames","Border lines","Center lines"],
+    "correctAnswer": 1,
+    "explanation": "Feature control frames contain geometric tolerance symbols, values, and datum references."
+  },
+  {
+    "id": 65,
+    "question": "Which GD&T concept helps ensure proper assembly of parts in computer-modeled designs?",
+    "options": ["Color coding","Animation","Tolerancing","Rendering"],
+    "correctAnswer": 2,
+    "explanation": "Tolerancing ensures parts fit and function properly during assembly."
+  },
+  {
+    "id": 66,
+    "question": "What does CAD stand for?",
+    "options": ["Computer Aided Drafting/Design","Controlled Assembly Design","Computerized Axis Drawing","Calculated Angular Design"],
+    "correctAnswer": 0,
+    "explanation": "CAD refers to software used for creating, modifying, and analyzing engineering drawings and models."
+  },
+  {
+    "id": 67,
+    "question": "Which GD&T symbol is commonly used in CAD software to control hole location?",
+    "options": ["Flatness","Position","Circularity","Straightness"],
+    "correctAnswer": 1,
+    "explanation": "The position tolerance controls the exact location of holes and other features."
+  },
+  {
+    "id": 68,
+    "question": "In computer graphics-based GD&T interpretation, datums are mainly used for:",
+    "options": ["Coloring surfaces","Providing reference points for measurements","Increasing model speed","Reducing file size"],
+    "correctAnswer": 1,
+    "explanation": "Datums establish reference planes, axes, or points for accurate dimensioning and inspection."
+  },
+  {
+    "id": 69,
+    "question": "Which benefit is achieved by using GD&T in 3D CAD models?",
+    "options": ["Increased ambiguity","Better communication between design and manufacturing teams","Elimination of measurements","Reduced visualization quality"],
+    "correctAnswer": 1,
+    "explanation": "GD&T provides a standardized method for communicating design intent clearly."
+  },
+  {
+    "id": 70,
+    "question": "Which CAD feature allows engineers to inspect dimensions and tolerances digitally?",
+    "options": ["Rendering tool","Simulation and measurement tools","Audio settings","Printing options"],
+    "correctAnswer": 1,
+    "explanation": "CAD software includes measurement and simulation tools for checking dimensions and tolerances virtually."
+  },
+  {
+    "id": 71,
+    "question": "What is the role of feature control frames in computer graphics interpretation of GD&T?",
+    "options": ["To display colors","To store images","To specify geometric tolerance information","To increase drawing scale"],
+    "correctAnswer": 2,
+    "explanation": "Feature control frames communicate tolerance type, tolerance value, and datum references."
+  },
+  {
+    "id": 72,
+    "question": "Which practical advantage does GD&T provide in computer-aided manufacturing (CAM)?",
+    "options": ["Reduces machine lubrication","Improves manufacturing accuracy and consistency","Eliminates CAD models","Increases material waste"],
+    "correctAnswer": 1,
+    "explanation": "GD&T ensures precise interpretation of design requirements during manufacturing."
+  },
+  {
+    "id": 73,
+    "question": "In a CAD environment, virtual inspection of GD&T helps to:",
+    "options": ["Increase drawing thickness","Detect tolerance-related assembly problems before production","Reduce computer memory","Eliminate datums"],
+    "correctAnswer": 1,
+    "explanation": "Virtual inspection helps identify fit and alignment issues before actual manufacturing begins."
+  },
+  {
+    "id": 74,
+    "question": "Which statement best describes the interpretation of GD&T in computer graphics?",
+    "options": ["It depends only on visual appearance","It uses standard symbols and rules for geometric control","It ignores manufacturing requirements","It replaces dimensions completely"],
+    "correctAnswer": 1,
+    "explanation": "GD&T interpretation follows standardized symbols and principles within CAD systems."
+  },
+  {
+    "id": 75,
+    "question": "Why are 3D CAD models preferred for practical GD&T applications?",
+    "options": ["They reduce geometric accuracy","They allow better visualization and analysis of tolerances","They avoid engineering standards","They eliminate the need for measurements"],
+    "correctAnswer": 1,
+    "explanation": "3D models help engineers understand feature relationships and tolerance effects more effectively."
+  },
+  {
+    "id": 76,
+    "question": "Which process commonly uses GD&T information extracted from computer graphics models?",
+    "options": ["Painting process","Quality inspection and CNC machining","Packaging design only","Manual sketching only"],
+    "correctAnswer": 1,
+    "explanation": "GD&T data from CAD models is widely used in CNC machining and quality inspection for accurate manufacturing and verification."
+  },
+  {
+    "id": 77,
+    "question": "A shaft has a size of 20 ± 0.02 mm. What is the Maximum Material Condition (MMC) of the shaft?",
+    "options": ["19.98 mm","20.00 mm","20.02 mm","20.04 mm"],
+    "correctAnswer": 2,
+    "explanation": "For a shaft, MMC is the largest size because it contains the maximum amount of material."
+  },
+  {
+    "id": 78,
+    "question": "A hole is specified as 30 ± 0.05 mm. What is the Least Material Condition (LMC) of the hole?",
+    "options": ["29.95 mm","30.00 mm","30.05 mm","30.10 mm"],
+    "correctAnswer": 2,
+    "explanation": "For a hole, LMC is the largest hole size because it contains the least material."
+  },
+  {
+    "id": 79,
+    "question": "A hole has limits of 15.00 mm and 15.04 mm. What is tolerance?",
+    "options": ["0.02 mm","0.03 mm","0.04 mm","0.05 mm"],
+    "correctAnswer": 2,
+    "explanation": "Tolerance = Upper limit − Lower limit = 15.04 − 15.00 = 0.04 mm" 
+  },
+  {
+    "id": 80,
+    "question": "For a shaft, which condition represents MMC?",
+    "options": ["Smallest diameter","Average diameter","Largest diameter","Zero diameter"],
+    "correctAnswer": 2,
+    "explanation": "A larger shaft contains more material; therefore, it represents MMC."
+  },
+  {
+    "id": 81,
+    "question": "A shaft dimension is 25 ± 0.01 mm. What is the LMC size?",
+    "options": ["24.99 mm","25.00 mm","25.01 mm","25.02 mm"],
+    "correctAnswer": 0,
+    "explanation": "For shafts, LMC is the smallest size because it contains the least material."
+  },
+  {
+    "id": 82,
+    "question": "A hole has dimensions 40.00 mm to 40.08 mm. What is the MMC of the hole?",
+    "options": ["39.92 mm","40.00 mm","40.04 mm","40.08 mm"],
+    "correctAnswer": 1,
+    "explanation": "For holes, MMC is the smallest hole size because it contains the maximum material."
+  },
+  {
+    "id": 83,
+    "question": "A shaft has limits of 10.02 mm and 9.98 mm. What is total tolerance?",
+    "options": ["0.02 mm","0.03 mm","0.04 mm","0.05 mm"],
+    "correctAnswer": 2,
+    "explanation": "Tolerance = 10.02 − 9.98 = 0.04 mm" 
+  },
+  {
+    "id": 84,
+    "question": "A positional tolerance of Ø0.10 mm at MMC is applied to a hole. If the actual hole size departs from MMC by 0.03 mm, what is the bonus tolerance?",
+    "options": ["0.02 mm","0.03 mm","0.05 mm","0.10 mm"],
+    "correctAnswer": 1,
+    "explanation": "Bonus tolerance equals the amount by which the feature departs from MMC."
+  },
+  {
+    "id": 85,
+    "question": "Which statement is correct regarding MMC?",
+    "options": ["MMC always gives minimum material","MMC is independent of feature size","MMC represents the condition with maximum material","MMC applies only to holes"],
+    "correctAnswer": 2,
+    "explanation": "MMC defines the feature size containing the greatest amount of material."
+  },
+  {
+    "id": 86,
+    "question": "A hole has a diameter tolerance from 12.00 mm to 12.06 mm. What is LMC?",
+    "options": ["12.00 mm","12.03 mm","12.06 mm","11.94 mm"],
+    "correctAnswer": 2,
+    "explanation": "For holes, the largest size corresponds to LMC."
+  },
+  {
+    "id": 87,
+    "question": "A shaft is specified as 50 ± 0.05 mm. What is the MMC and LMC respectively?",
+    "options": ["49.95 mm and 50.05 mm","50.05 mm and 49.95 mm","50.00 mm and 49.95 mm","50.05 mm and 50.00 mm"],
+    "correctAnswer": 1,
+    "explanation": "For shafts: MMC = Largest size = 50.05 mm; LMC = Smallest size = 49.95 mm" 
+  },
+  {
+    "id": 88,
+    "question": "A hole has MMC size 20.00 mm and positional tolerance Ø0.20 mm at MMC. If the produced hole size is 20.08 mm, what is the total positional tolerance available?",
+    "options": ["0.20 mm","0.24 mm","0.28 mm","0.30 mm"],
+    "correctAnswer": 2,
+    "explanation": "Bonus tolerance = 20.08 − 20.00 = 0.08 mm; Total tolerance = 0.20 + 0.08 = 0.28 mm" 
+  },
+  {
+    "id": 89,
+    "question": "A shaft has dimensions ranging from 29.94 mm to 30.00 mm. What is the MMC?",
+    "options": ["29.94 mm","29.97 mm","30.00 mm","30.06 mm"],
+    "correctAnswer": 2,
+    "explanation": "For shafts, MMC is the largest permissible size."
+  },
+  {
+    "id": 90,
+    "question": "A hole tolerance is given as 18 +0.04/0 mm. What is the tolerance value?",
+    "options": ["0.02 mm","0.03 mm","0.04 mm","0.05 mm"],
+    "correctAnswer": 2,
+    "explanation": "Tolerance = Upper limit − Lower limit = 18.04 − 18.00 = 0.04 mm" 
+  },
+  {
+    "id": 91,
+    "question": "A positional tolerance of Ø0.15 mm at MMC is specified for a shaft. The shaft MMC is 25.05 mm, but actual shaft size is 25.00 mm. What is bonus tolerance?",
+    "options": ["0.02 mm","0.03 mm","0.05 mm","0.10 mm"],
+    "correctAnswer": 2,
+    "explanation": "Bonus tolerance = MMC size − Actual size = 25.05 − 25.00 = 0.05 mm for a shaft feature."
+  },
+  {
+    "id": 92,
+    "question": "A hole size is given as 35 ± 0.03 mm. What is the MMC of the hole?",
+    "options": ["34.97 mm","35.00 mm","35.03 mm","35.06 mm"],
+    "correctAnswer": 0,
+    "explanation": "For holes, MMC is the smallest size because it contains the maximum material."
+  },
+  {
+    "id": 93,
+    "question": "A shaft has dimensions from 19.95 mm to 20.00 mm. What is tolerance?",
+    "options": ["0.02 mm","0.03 mm","0.04 mm","0.05 mm"],
+    "correctAnswer": 3,
+    "explanation": "Tolerance = 20.00 − 19.95 = 0.05 mm" 
+  },
+  {
+    "id": 94,
+    "question": "Which condition gives the least amount of material in a shaft?",
+    "options": ["MMC","LMC","Basic size","Datum size"],
+    "correctAnswer": 1,
+    "explanation": "For shafts, LMC is the minimum diameter condition."
+  },
+  {
+    "id": 95,
+    "question": "A hole has a positional tolerance of Ø0.12 mm at MMC. If the actual hole size is larger than MMC by 0.04 mm, what is the total positional tolerance?",
+    "options": ["0.12 mm","0.14 mm","0.16 mm","0.18 mm"],
+    "correctAnswer": 2,
+    "explanation": "Total positional tolerance = Given tolerance + Bonus tolerance = 0.12 + 0.04 = 0.16 mm" 
+  },
+  {
+    "id": 96,
+    "question": "A shaft size is specified as 45 −0.02 mm. What is the LMC of the shaft?",
+    "options": ["44.96 mm","44.98 mm","45.00 mm","45.02 mm"],
+    "correctAnswer": 1,
+    "explanation": "LMC for a shaft is the smallest size. 45 − 0.02 = 44.98 mm" 
+  },
+  {
+    "id": 97,
+    "question": "A hole varies from 10.00 mm to 10.05 mm. Which value represents LMC?",
+    "options": ["10.00 mm","10.02 mm","10.03 mm","10.05 mm"],
+    "correctAnswer": 3,
+    "explanation": "For holes, the largest size represents Least Material Condition."
+  },
+  {
+    "id": 98,
+    "question": "A shaft has an MMC of 16.10 mm and actual size of 16.06 mm. What is bonus tolerance?",
+    "options": ["0.02 mm","0.03 mm","0.04 mm","0.05 mm"],
+    "correctAnswer": 2,
+    "explanation": "Bonus tolerance = MMC − Actual size = 16.10 − 16.06 = 0.04 mm" 
+  },
+  {
+    "id": 99,
+    "question": "A hole is specified as 25 +0.08/0 mm with positional tolerance Ø0.10 mm at MMC. If actual hole size is 25.05 mm, what is total positional tolerance?",
+    "options": ["0.10 mm","0.12 mm","0.15 mm","0.18 mm"],
+    "correctAnswer": 2,
+    "explanation": "MMC of hole = 25.00 mm; Bonus tolerance = 25.05 − 25.00 = 0.05 mm; Total tolerance = 0.10 + 0.05 = 0.15 mm" 
+  },
+  {
+    "id": 100,
+    "question": "A shaft is dimensioned as 60 ± 0.04 mm. What are the upper and lower limits?",
+    "options": ["60.02 mm and 59.98 mm","60.04 mm and 59.96 mm","60.06 mm and 59.94 mm","60.08 mm and 59.92 mm"],
+    "correctAnswer": 1,
+    "explanation": "Upper limit = 60 + 0.04 = 60.04 mm; Lower limit = 60 − 0.04 = 59.96 mm" 
+  },
+  {
+    "id": 101,
+    "question": "A hole has limits of 50.00 mm and 50.10 mm, while a shaft has limits 49.95 mm and 50.02 mm. What is the maximum clearance?",
+    "options": ["0.08 mm","0.10 mm","0.12 mm","0.15 mm"],
+    "correctAnswer": 3,
+    "explanation": "Maximum clearance = Largest hole − smallest shaft = 50.10 − 49.95 = 0.15 mm" 
+  },
+  {
+    "id": 102,
+    "question": "Which GD&T symbol represents straightness?",
+    "options": ["○","⊥","― — straightness","⌖"],
+    "correctAnswer": 2,
+    "explanation": "The straight line symbol (―) represents straightness and controls the straight form of a feature."
+  },
+  {
+    "id": 103,
+    "question": "What does the symbol “○” represent in GD&T?",
+    "options": ["Flatness","Circularity","Parallelism","Position"],
+    "correctAnswer": 1,
+    "explanation": "The circular symbol (○) represents circularity or roundness."
+  },
+  {
+    "id": 104,
+    "question": "Which symbol is used for flatness?",
+    "options": ["▱ — Flatness","○","◎","⌖"],
+    "correctAnswer": 0,
+    "explanation": "The parallelogram symbol (▱) represents flatness."
+  },
+  {
+    "id": 105,
+    "question": "Which GD&T symbol represents position tolerance?",
+    "options": ["◎","⌖ — Position","○","∠"],
+    "correctAnswer": 1,
+    "explanation": "The position symbol (⌖) controls the exact location of features."
+  },
+  {
+    "id": 106,
+    "question": "What does the symbol “∠” indicate in GD&T?",
+    "options": ["Circularity","Angularity","Cylindricity","Runout"],
+    "correctAnswer": 1,
+    "explanation": "The angularity symbol controls orientation at a specified angle."
+  },
+  {
+    "id": 107,
+    "question": "Which symbol represents cylindricity?",
+    "options": ["⌭ — Cylindricity","○","⊥","∥"],
+    "correctAnswer": 0,
+    "explanation": "The cylindricity symbol controls the complete cylindrical form of a feature."
+  },
+  {
+    "id": 108,
+    "question": "The symbol “⌒” is used for:",
+    "options": ["Profile of a line","Position","Concentricity","Symmetry"],
+    "correctAnswer": 0,
+    "explanation": "The curved line symbol (⌒) represents profile of a line."
+  },
+  {
+    "id": 109,
+    "question": "Which symbol represents concentricity?",
+    "options": ["◎ — Concentricity","⌖","▱","○"],
+    "correctAnswer": 0,
+    "explanation": "The concentric circles symbol (◎) controls concentricity between features."
+  },
+  {
+    "id": 110,
+    "question": "The symbol “⌰” represents:",
+    "options": ["Symmetry","Total runout","Straightness","Flatness"],
+    "correctAnswer": 1,
+    "explanation": "The symbol ⌰ is used for total runout tolerance."
+  },
+  {
+    "id": 111,
+    "question": "Which pair of symbols belongs to orientation tolerances?",
+    "options": ["○ and ▱","// and ⊥","⌖ and ◎","↗ and ⌰"],
+    "correctAnswer": 1,
+    "explanation": "Parallelism (//) and perpendicularity (⊥) are orientation controls."
+  },
+  {
+    "id": 112,
+    "question": "Which symbol is associated with profile of a surface?",
+    "options": ["⌓ — Profile of surface","⌖","◎","↻"],
+    "correctAnswer": 0,
+    "explanation": "The symbol ⌓ represents profile of a surface and controls the contour of surfaces."
+  },
+  {
+    "id": 113,
+    "question": "Which GD&T category does the straightness symbol belong to?",
+    "options": ["Orientation control","Form control","Runout control","Profile control"],
+    "correctAnswer": 1,
+    "explanation": "Straightness controls the form of a feature and belongs to the form tolerance category."
+  },
+  {
+    "id": 114,
+    "question": "The flatness symbol in GD&T is classified under:",
+    "options": ["Form tolerance","Orientation tolerance","Location tolerance","Runout tolerance"],
+    "correctAnswer": 0,
+    "explanation": "Flatness controls the shape of a surface without reference to datums."
+  },
+  {
+    "id": 115,
+    "question": "Which symbol belongs to the orientation tolerance group?",
+    "options": ["Circularity","Cylindricity","Parallelism","Profile of surface"],
+    "correctAnswer": 2,
+    "explanation": "Parallelism controls the orientation of a feature relative to a datum."
+  },
+  {
+    "id": 116,
+    "question": "Circularity belongs to which GD&T category?",
+    "options": ["Form tolerance","Runout tolerance","Location tolerance","Orientation tolerance"],
+    "correctAnswer": 0,
+    "explanation": "Circularity controls the roundness of a feature and is a form tolerance."
+  },
+  {
+    "id": 117,
+    "question": "Which GD&T category contains the symbols parallelism, perpendicularity, and angularity?",
+    "options": ["Profile controls","Orientation controls","Form controls","Runout controls"],
+    "correctAnswer": 1,
+    "explanation": "These symbols control the orientation of features relative to datums."
+  },
+  {
+    "id": 118,
+    "question": "The position symbol “⌖”belongs to which tolerance category?",
+    "options": ["Form","Profile","Location","Runout"],
+    "correctAnswer": 2,
+    "explanation": "Position is a location tolerance used to control feature location."
+  },
+  {
+    "id": 119,
+    "question": "Which of the following is profile tolerance?",
+    "options": ["Straightness","Profile of a surface","Parallelism","Circular runout"],
+    "correctAnswer": 1,
+    "explanation": "Profile tolerances control the shape of lines and surfaces."
+  },
+  {
+    "id": 120,
+    "question": "Concentricity and symmetry are classified under:",
+    "options": ["Location tolerances","Orientation tolerances","Form tolerances","Profile tolerances"],
+    "correctAnswer": 0,
+    "explanation": "Both concentricity and symmetry control the location relationship between features."
+  },
+  {
+    "id": 121,
+    "question": "Which GD&T category includes circular runout and total runout?",
+    "options": ["Form control","Orientation control","Runout control","Profile control"],
+    "correctAnswer": 2,
+    "explanation": "Runout tolerances control the variation of rotating features."
+  },
+  {
+    "id": 122,
+    "question": "How many major categories are commonly used to classify the 14 GD&T symbols?",
+    "options": ["3","4","5","6"],
+    "correctAnswer": 2,
+    "explanation": "The 14 GD&T symbols are grouped into five categories: Form, Orientation, Location, Profile, and Runout."
+  },
+  {
+    "id": 123,
+    "question": "Which set correctly represents all form tolerances?",
+    "options": ["Straightness, Flatness, Circularity, Cylindricity","Parallelism, Perpendicularity, Angularity","Position, Symmetry, Concentricity","Circular Runout, Total Runout, Flatness"],
+    "correctAnswer": 0,
+    "explanation": "These four symbols belong exclusively to form tolerances."
+  },
+  {
+    "id": 124,
+    "question": "Which GD&T symbol controls the overall cylindrical shape of a feature?",
+    "options": ["Circularity","Cylindricity","Straightness","Flatness"],
+    "correctAnswer": 1,
+    "explanation": "Cylindricity controls the complete cylindrical form including roundness and straightness."
+  },
+  {
+    "id": 125,
+    "question": "The profile of a line and profile of a surface symbols belong to which category?",
+    "options": ["Profile tolerances","Location tolerances","Form tolerances","Runout tolerances"],
+    "correctAnswer": 0,
+    "explanation": "These tolerances control the contour of lines and surfaces."
+  },
+  {
+    "id": 126,
+    "question": "Which statement about GD&T symbols is correct?",
+    "options": ["All GD&T symbols require datums","Form tolerances generally do not require datums","Runout tolerances do not control rotation","Orientation tolerances are independent of datums"],
+    "correctAnswer": 1,
+    "explanation": "Form tolerances like straightness and flatness usually control individual features without datum references."
+  },
+  {
+    "id": 127,
+    "question": "Which of the following symbols belongs to the runout category?",
+    "options": ["Angularity","Circular runout","Position","Circularity"],
+    "correctAnswer": 1,
+    "explanation": "Circular runout controls variation during rotation and belongs to runout tolerances."
+  },
+  {
+    "id": 128,
+    "question": "The angularity symbol controls:",
+    "options": ["Form of a feature","Orientation at a specified angle","Hole location","Surface roughness"],
+    "correctAnswer": 1,
+    "explanation": "Angularity controls orientation relative to a datum at angles other than 90°."
+  },
+  {
+    "id": 129,
+    "question": "Which symbol is NOT a location tolerance?",
+    "options": ["Position","Symmetry","Concentricity","Parallelism"],
+    "correctAnswer": 3,
+    "explanation": "Parallelism is an orientation tolerance, not a location tolerance."
+  },
+  {
+    "id": 130,
+    "question": "Total runout controls:",
+    "options": ["Only circularity","Entire surface variation during rotation","Hole position only","Surface roughness"],
+    "correctAnswer": 1,
+    "explanation": "Total runout controls the cumulative variation of a rotating surface."
+  },
+  {
+    "id": 131,
+    "question": "Which category does the symmetry symbol belong to?",
+    "options": ["Form","Orientation","Location","Profile"],
+    "correctAnswer": 2,
+    "explanation": "Symmetry controls the balanced location of features about a datum plane or axis."
+  }
+]
