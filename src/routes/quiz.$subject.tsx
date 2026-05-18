@@ -537,7 +537,9 @@ function CompleteScreen({ subjectKey }: { subjectKey: SubjectKey }) {
             </span>
             .
           </p>
-          <p className="mt-2 text-sm text-muted-foreground">It's over now — great job!</p>
+          {typeof window !== "undefined" && !window.location.hostname.includes("iks") && (
+            <p className="mt-2 text-sm text-muted-foreground">It's over now — great job!</p>
+          )}
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             <button
               onClick={() => {
